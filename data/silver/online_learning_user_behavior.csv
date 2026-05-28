@@ -1,0 +1,1001 @@
+user_id,age,gender,country,education_level,hours_spent_weekly,preferred_device,course_completed,satisfaction_rating,login_frequency,quiz_score_avg
+user_0001,56,Male,UK,High School,5.7,Desktop,No,4,10,87.6
+user_0002,46,Other,India,PhD,4.1,Mobile,No,4,14,51.2
+user_0003,32,Male,Canada,Master,4.6,Desktop,No,2,9,44.0
+user_0004,25,Female,Canada,PhD,1.4,Desktop,No,5,1,99.9
+user_0005,38,Other,Australia,PhD,8.4,Mobile,No,1,5,41.5
+user_0006,56,Other,Canada,Bachelor,4.6,Tablet,Yes,4,3,90.1
+user_0007,36,Other,India,High School,8.8,Tablet,Yes,1,6,61.9
+user_0008,40,Other,India,Other,18.8,Desktop,No,4,10,90.5
+user_0009,28,Female,Canada,High School,9.2,Mobile,Yes,5,2,73.3
+user_0010,28,Other,India,Other,17.7,Tablet,Yes,4,9,94.1
+user_0011,41,Other,Australia,High School,12.5,Desktop,No,4,6,95.6
+user_0012,53,Male,USA,PhD,5.7,Desktop,No,3,7,40.5
+user_0013,57,Other,Australia,Master,7.8,Mobile,Yes,5,5,44.5
+user_0014,41,Female,Australia,Master,2.6,Desktop,No,2,9,55.0
+user_0015,20,Female,India,Bachelor,7.3,Tablet,Yes,2,1,80.2
+user_0016,39,Female,USA,Other,13.9,Mobile,Yes,5,5,93.3
+user_0017,19,Female,India,Other,2.4,Tablet,No,2,11,67.6
+user_0018,41,Other,UK,Other,4.9,Tablet,Yes,5,10,76.4
+user_0019,47,Other,India,PhD,8.2,Tablet,Yes,2,11,51.3
+user_0020,55,Female,India,Other,19.7,Desktop,Yes,3,6,88.3
+user_0021,19,Female,India,Master,15.9,Desktop,No,2,7,98.0
+user_0022,38,Other,USA,PhD,14.9,Tablet,No,4,12,56.1
+user_0023,50,Female,India,High School,3.2,Tablet,No,5,4,69.7
+user_0024,29,Male,USA,Other,15.8,Mobile,No,1,12,45.2
+user_0025,39,Female,Canada,Other,15.9,Mobile,Yes,1,13,73.5
+user_0026,42,Female,UK,High School,12.4,Desktop,No,5,1,70.2
+user_0027,44,Male,USA,Other,19.8,Desktop,No,3,11,48.7
+user_0028,59,Male,Canada,High School,7.2,Mobile,No,2,8,66.5
+user_0029,45,Other,USA,PhD,18.9,Tablet,No,3,10,60.0
+user_0030,33,Other,USA,Master,18.4,Desktop,Yes,1,4,71.3
+user_0031,32,Male,UK,High School,1.2,Tablet,Yes,5,3,75.1
+user_0032,20,Male,Australia,Bachelor,9.6,Mobile,Yes,5,12,40.5
+user_0033,54,Other,Australia,High School,19.6,Desktop,No,3,7,85.7
+user_0034,24,Female,USA,Other,3.0,Desktop,No,3,12,82.8
+user_0035,38,Male,India,PhD,11.4,Mobile,Yes,2,2,62.0
+user_0036,26,Other,Canada,PhD,19.6,Desktop,No,4,8,43.2
+user_0037,56,Female,India,High School,11.6,Mobile,No,4,14,85.3
+user_0038,35,Male,India,Master,4.6,Desktop,Yes,2,6,97.3
+user_0039,21,Female,USA,Bachelor,12.1,Mobile,Yes,4,7,54.4
+user_0040,42,Other,USA,PhD,4.9,Desktop,No,1,14,59.4
+user_0041,31,Male,USA,Other,10.9,Tablet,No,4,5,51.0
+user_0042,26,Female,USA,Other,2.4,Tablet,No,2,9,74.6
+user_0043,43,Male,Australia,Master,12.5,Tablet,Yes,4,5,49.3
+user_0044,19,Female,USA,PhD,10.8,Desktop,Yes,5,11,61.4
+user_0045,37,Other,Australia,High School,15.1,Desktop,Yes,3,5,81.8
+user_0046,45,Other,Australia,Other,13.0,Tablet,Yes,1,3,73.6
+user_0047,24,Male,USA,Master,11.4,Tablet,No,5,11,63.2
+user_0048,25,Female,UK,PhD,14.1,Mobile,Yes,5,1,65.2
+user_0049,52,Male,Canada,PhD,3.7,Mobile,Yes,2,2,73.7
+user_0050,31,Male,India,PhD,12.3,Mobile,No,3,8,40.4
+user_0051,34,Female,Australia,PhD,4.3,Tablet,No,3,1,44.7
+user_0052,53,Female,Canada,PhD,18.6,Tablet,No,1,7,92.9
+user_0053,57,Female,UK,Other,2.3,Tablet,Yes,2,14,44.7
+user_0054,21,Other,India,Master,9.2,Mobile,No,1,14,82.4
+user_0055,19,Male,India,PhD,14.2,Desktop,No,4,5,95.2
+user_0056,23,Male,Australia,Bachelor,9.7,Tablet,Yes,5,3,56.2
+user_0057,59,Other,USA,Bachelor,2.7,Desktop,Yes,1,12,62.2
+user_0058,21,Female,UK,Master,11.5,Desktop,No,5,12,74.1
+user_0059,46,Other,Australia,High School,13.2,Desktop,Yes,2,11,92.9
+user_0060,35,Other,UK,High School,14.4,Mobile,No,4,7,96.5
+user_0061,43,Other,USA,High School,8.1,Desktop,No,2,9,84.4
+user_0062,51,Male,USA,Bachelor,11.7,Tablet,Yes,4,2,45.2
+user_0063,27,Other,Australia,High School,9.6,Mobile,No,4,8,80.1
+user_0064,53,Male,USA,Other,13.8,Tablet,Yes,5,9,64.6
+user_0065,31,Male,Canada,PhD,12.1,Tablet,Yes,2,11,68.2
+user_0066,48,Male,India,Bachelor,11.0,Mobile,Yes,2,3,42.9
+user_0067,32,Female,Australia,Master,5.7,Tablet,No,1,2,51.5
+user_0068,25,Male,UK,Master,1.0,Tablet,Yes,2,7,87.4
+user_0069,31,Male,Canada,PhD,4.3,Mobile,Yes,1,5,67.2
+user_0070,40,Female,Australia,Bachelor,3.2,Tablet,No,3,5,58.1
+user_0071,57,Male,USA,High School,9.5,Desktop,No,3,10,63.0
+user_0072,38,Other,USA,High School,12.6,Tablet,No,3,5,91.3
+user_0073,33,Other,USA,Other,5.0,Desktop,No,2,4,84.9
+user_0074,35,Male,USA,Other,18.8,Tablet,Yes,2,13,56.3
+user_0075,41,Female,UK,High School,1.1,Mobile,Yes,1,5,47.1
+user_0076,43,Other,Canada,Master,15.7,Mobile,Yes,4,13,55.1
+user_0077,42,Female,India,Master,12.9,Tablet,No,1,4,95.2
+user_0078,58,Female,UK,Other,8.1,Mobile,No,3,13,74.9
+user_0079,46,Other,UK,PhD,2.0,Tablet,Yes,1,6,72.0
+user_0080,32,Female,India,High School,12.9,Mobile,No,4,4,75.8
+user_0081,18,Other,India,Other,8.3,Desktop,No,2,2,62.0
+user_0082,42,Female,USA,Other,18.8,Tablet,Yes,1,9,88.4
+user_0083,24,Other,UK,High School,11.3,Desktop,Yes,3,2,71.4
+user_0084,26,Male,Australia,High School,18.9,Desktop,No,3,9,47.0
+user_0085,41,Other,India,Master,5.2,Tablet,No,2,10,47.7
+user_0086,18,Other,India,PhD,14.8,Desktop,No,1,6,72.2
+user_0087,25,Other,Canada,PhD,12.7,Tablet,Yes,4,9,96.2
+user_0088,41,Other,Australia,High School,15.0,Desktop,Yes,2,9,58.5
+user_0089,28,Female,Australia,Bachelor,5.1,Tablet,Yes,1,3,92.2
+user_0090,34,Male,India,Other,13.6,Tablet,Yes,5,1,85.8
+user_0091,25,Other,USA,Other,10.5,Mobile,Yes,3,1,54.9
+user_0092,52,Female,Canada,High School,15.1,Tablet,No,4,3,42.2
+user_0093,52,Male,Australia,Bachelor,7.2,Tablet,No,4,5,46.1
+user_0094,50,Male,India,Master,17.9,Desktop,No,4,13,83.7
+user_0095,22,Male,Australia,High School,2.6,Tablet,Yes,3,3,52.0
+user_0096,59,Male,Canada,High School,16.3,Mobile,Yes,1,12,62.3
+user_0097,56,Other,Canada,Other,17.4,Desktop,Yes,2,9,70.1
+user_0098,58,Other,UK,High School,16.5,Desktop,No,1,9,83.5
+user_0099,45,Female,India,High School,10.7,Mobile,Yes,2,3,46.8
+user_0100,24,Female,Canada,High School,9.3,Desktop,Yes,4,3,64.4
+user_0101,26,Female,UK,Other,19.9,Desktop,No,1,12,69.1
+user_0102,25,Male,UK,Master,5.4,Desktop,Yes,4,14,72.4
+user_0103,29,Male,Australia,Master,11.4,Desktop,No,5,5,89.1
+user_0104,51,Other,Australia,High School,13.7,Mobile,Yes,4,2,50.3
+user_0105,50,Male,UK,Other,14.3,Mobile,Yes,4,6,88.5
+user_0106,40,Male,Australia,Master,4.9,Desktop,No,2,7,81.6
+user_0107,41,Male,Canada,Master,13.4,Desktop,No,5,13,73.4
+user_0108,54,Female,USA,Master,16.5,Mobile,No,4,9,82.0
+user_0109,52,Female,Canada,Other,2.0,Mobile,No,4,6,64.7
+user_0110,57,Other,UK,Other,18.3,Mobile,No,5,3,48.3
+user_0111,39,Male,UK,High School,1.6,Desktop,No,5,12,79.9
+user_0112,44,Male,Canada,PhD,7.8,Desktop,Yes,1,5,71.5
+user_0113,52,Other,Australia,Master,1.3,Tablet,Yes,2,4,78.4
+user_0114,18,Male,Australia,PhD,2.5,Mobile,No,5,5,60.3
+user_0115,52,Male,UK,Other,18.3,Desktop,Yes,5,8,94.4
+user_0116,54,Female,India,Other,7.7,Mobile,No,3,8,75.2
+user_0117,31,Other,Australia,Other,9.1,Desktop,Yes,5,6,45.1
+user_0118,20,Other,Canada,PhD,5.1,Mobile,No,2,1,67.0
+user_0119,18,Other,Australia,Other,12.3,Desktop,Yes,4,8,85.4
+user_0120,22,Other,Canada,High School,12.3,Tablet,Yes,4,8,87.6
+user_0121,43,Female,UK,Other,8.1,Tablet,Yes,4,2,69.7
+user_0122,31,Female,Australia,Bachelor,7.3,Mobile,Yes,4,4,93.7
+user_0123,56,Male,Canada,PhD,17.8,Desktop,Yes,3,12,56.1
+user_0124,44,Male,UK,Bachelor,8.3,Desktop,No,5,2,64.6
+user_0125,26,Male,India,Other,10.4,Mobile,No,4,4,93.9
+user_0126,32,Male,Canada,High School,6.4,Desktop,No,1,12,93.8
+user_0127,32,Female,India,Master,15.9,Mobile,Yes,4,13,81.1
+user_0128,43,Other,India,Other,8.6,Desktop,No,5,13,91.5
+user_0129,59,Female,USA,High School,10.8,Mobile,Yes,4,10,45.3
+user_0130,30,Male,Australia,PhD,5.8,Desktop,Yes,3,7,91.9
+user_0131,49,Female,Canada,Bachelor,19.8,Mobile,Yes,2,9,59.2
+user_0132,56,Other,India,Bachelor,6.5,Desktop,No,2,14,50.7
+user_0133,49,Other,USA,Bachelor,15.6,Tablet,Yes,5,14,54.4
+user_0134,21,Female,UK,PhD,9.1,Desktop,No,2,8,65.1
+user_0135,47,Female,Canada,High School,4.9,Mobile,No,2,12,55.1
+user_0136,54,Female,India,PhD,16.2,Tablet,Yes,1,9,59.2
+user_0137,40,Male,Australia,Bachelor,7.3,Desktop,Yes,5,8,48.1
+user_0138,56,Female,USA,Other,17.4,Tablet,No,5,2,57.8
+user_0139,32,Female,India,Master,18.4,Desktop,No,2,7,74.3
+user_0140,46,Female,Australia,PhD,17.3,Tablet,No,2,2,66.5
+user_0141,53,Other,India,PhD,1.7,Mobile,No,2,13,60.8
+user_0142,30,Other,Canada,High School,16.0,Desktop,No,3,12,84.8
+user_0143,49,Male,Canada,High School,8.8,Desktop,No,4,11,93.6
+user_0144,24,Male,Canada,PhD,17.6,Mobile,Yes,3,2,85.4
+user_0145,39,Other,USA,Bachelor,13.1,Tablet,No,5,4,59.9
+user_0146,45,Other,Canada,Master,16.8,Mobile,No,1,1,84.7
+user_0147,19,Other,Australia,High School,10.5,Mobile,No,4,5,49.1
+user_0148,59,Female,India,Bachelor,11.2,Tablet,No,1,6,47.8
+user_0149,23,Female,UK,Other,3.7,Mobile,Yes,5,9,60.7
+user_0150,45,Other,Australia,High School,15.9,Desktop,Yes,5,10,88.5
+user_0151,45,Female,Australia,Bachelor,9.0,Desktop,No,1,8,54.8
+user_0152,37,Female,Canada,Bachelor,10.5,Desktop,No,1,2,43.8
+user_0153,47,Male,USA,Master,15.9,Mobile,No,1,1,47.9
+user_0154,28,Other,India,Master,12.4,Desktop,Yes,5,2,91.5
+user_0155,45,Other,USA,Other,4.8,Desktop,Yes,2,7,78.0
+user_0156,42,Female,India,Bachelor,12.2,Desktop,Yes,1,4,55.2
+user_0157,56,Other,India,Bachelor,8.7,Desktop,Yes,4,10,73.3
+user_0158,50,Male,USA,Master,9.9,Desktop,Yes,5,5,71.7
+user_0159,18,Male,Australia,High School,1.5,Desktop,Yes,3,12,79.3
+user_0160,44,Male,India,High School,5.0,Mobile,No,3,7,54.0
+user_0161,30,Other,USA,PhD,6.3,Desktop,Yes,4,3,91.9
+user_0162,58,Other,India,Master,14.5,Desktop,Yes,2,10,58.6
+user_0163,20,Other,UK,PhD,1.2,Tablet,No,1,2,81.6
+user_0164,56,Other,Australia,Master,8.8,Mobile,Yes,5,13,41.0
+user_0165,23,Other,Canada,Other,18.6,Mobile,No,1,7,62.4
+user_0166,25,Male,India,Bachelor,3.1,Mobile,Yes,5,5,61.1
+user_0167,44,Female,UK,Other,10.8,Mobile,No,3,14,72.6
+user_0168,26,Male,Canada,Master,15.9,Desktop,No,1,1,44.4
+user_0169,54,Other,Canada,Bachelor,18.9,Desktop,No,4,1,87.4
+user_0170,50,Male,India,High School,15.2,Tablet,No,2,9,53.1
+user_0171,59,Other,USA,High School,14.7,Tablet,No,4,5,80.6
+user_0172,41,Other,India,PhD,16.7,Mobile,Yes,2,1,88.2
+user_0173,32,Male,UK,Master,9.5,Tablet,Yes,1,7,73.7
+user_0174,49,Other,Canada,Master,16.3,Tablet,No,1,9,84.5
+user_0175,49,Female,India,High School,1.2,Mobile,No,2,11,79.7
+user_0176,41,Other,USA,Other,18.6,Mobile,No,3,1,61.3
+user_0177,58,Female,India,Bachelor,9.4,Tablet,Yes,5,10,88.5
+user_0178,29,Female,Australia,Other,11.5,Desktop,No,4,14,57.7
+user_0179,56,Other,USA,Other,5.8,Tablet,No,4,13,74.3
+user_0180,19,Male,UK,High School,15.1,Tablet,No,4,4,84.7
+user_0181,20,Female,Canada,High School,2.5,Desktop,No,1,14,62.7
+user_0182,54,Male,India,High School,17.6,Desktop,Yes,4,3,58.2
+user_0183,34,Female,USA,PhD,16.7,Mobile,No,5,5,67.6
+user_0184,19,Other,Australia,Other,5.1,Mobile,No,5,7,89.1
+user_0185,19,Other,USA,Master,16.4,Tablet,Yes,2,8,95.8
+user_0186,45,Female,Australia,Bachelor,15.9,Desktop,No,1,13,72.7
+user_0187,40,Other,UK,PhD,13.0,Mobile,No,5,2,79.7
+user_0188,54,Female,Canada,Master,8.1,Tablet,Yes,3,7,94.2
+user_0189,49,Other,UK,Other,6.2,Desktop,Yes,1,14,45.9
+user_0190,50,Male,India,High School,5.4,Tablet,Yes,1,14,53.9
+user_0191,18,Other,USA,Other,7.1,Mobile,No,5,1,82.5
+user_0192,36,Male,Australia,Bachelor,18.2,Mobile,No,3,7,89.4
+user_0193,19,Other,Australia,PhD,2.5,Desktop,Yes,2,8,91.4
+user_0194,43,Male,USA,PhD,16.7,Tablet,Yes,5,2,64.9
+user_0195,49,Other,USA,Bachelor,7.6,Desktop,Yes,3,9,45.4
+user_0196,23,Male,India,Master,10.9,Mobile,No,1,1,66.3
+user_0197,49,Female,UK,Master,16.1,Mobile,No,3,13,53.8
+user_0198,21,Female,Australia,PhD,17.8,Tablet,Yes,1,6,57.5
+user_0199,28,Male,India,PhD,7.6,Tablet,No,5,1,86.3
+user_0200,34,Other,UK,High School,9.8,Tablet,Yes,5,3,44.5
+user_0201,55,Male,India,Master,8.9,Desktop,No,4,11,89.7
+user_0202,41,Other,Australia,Bachelor,1.3,Tablet,No,4,6,65.7
+user_0203,22,Female,USA,Master,6.6,Tablet,No,4,3,75.8
+user_0204,51,Other,USA,High School,9.7,Mobile,No,5,8,45.4
+user_0205,23,Female,UK,PhD,8.8,Mobile,Yes,2,5,60.2
+user_0206,39,Other,Canada,PhD,14.7,Tablet,No,5,2,45.4
+user_0207,28,Other,UK,High School,8.3,Tablet,No,3,4,97.7
+user_0208,33,Other,Canada,Bachelor,10.3,Mobile,Yes,5,9,88.4
+user_0209,50,Male,India,PhD,9.2,Tablet,No,5,4,67.6
+user_0210,26,Male,India,Other,15.1,Desktop,Yes,1,10,53.4
+user_0211,23,Female,Australia,PhD,17.4,Desktop,Yes,1,10,96.0
+user_0212,33,Female,Canada,Other,11.1,Desktop,No,1,8,60.7
+user_0213,46,Male,Australia,High School,16.0,Tablet,No,5,5,49.7
+user_0214,20,Female,USA,High School,6.6,Mobile,Yes,2,11,73.8
+user_0215,37,Male,Canada,PhD,11.3,Tablet,Yes,3,11,96.6
+user_0216,53,Other,UK,Master,7.6,Tablet,Yes,3,10,40.2
+user_0217,36,Female,USA,Other,8.9,Mobile,No,2,13,54.3
+user_0218,43,Female,USA,Bachelor,14.9,Mobile,Yes,2,13,96.3
+user_0219,20,Male,UK,PhD,17.8,Mobile,Yes,3,14,50.3
+user_0220,36,Female,USA,Bachelor,3.3,Desktop,Yes,4,1,46.8
+user_0221,37,Female,Canada,PhD,13.1,Tablet,No,1,7,74.2
+user_0222,49,Other,Australia,Master,12.1,Mobile,Yes,1,3,91.7
+user_0223,24,Female,USA,Master,3.2,Tablet,No,3,10,68.6
+user_0224,58,Other,Canada,Master,5.0,Desktop,No,2,8,99.7
+user_0225,50,Male,India,Master,6.9,Desktop,Yes,4,14,80.8
+user_0226,57,Female,Canada,High School,4.2,Mobile,No,3,12,44.4
+user_0227,56,Other,Australia,High School,5.6,Mobile,Yes,1,3,99.6
+user_0228,35,Male,Canada,Other,6.1,Tablet,No,5,1,64.5
+user_0229,57,Female,UK,Bachelor,7.4,Mobile,No,2,5,57.2
+user_0230,18,Male,Australia,PhD,15.2,Tablet,Yes,5,2,73.5
+user_0231,28,Female,India,PhD,11.9,Mobile,Yes,3,11,58.3
+user_0232,45,Male,UK,High School,19.7,Tablet,Yes,1,4,45.2
+user_0233,42,Male,Canada,PhD,8.9,Tablet,No,4,1,40.1
+user_0234,40,Other,Australia,High School,15.3,Tablet,No,5,9,67.0
+user_0235,48,Male,India,Other,17.6,Tablet,Yes,4,6,90.2
+user_0236,47,Female,UK,Bachelor,13.9,Desktop,Yes,1,8,74.3
+user_0237,59,Female,India,Other,8.8,Tablet,No,5,11,100.0
+user_0238,52,Other,Canada,Master,15.3,Mobile,No,4,4,57.2
+user_0239,24,Female,India,Master,4.9,Desktop,No,4,9,56.8
+user_0240,33,Female,USA,Master,7.2,Desktop,Yes,5,2,49.6
+user_0241,43,Female,UK,Other,11.4,Tablet,No,1,9,49.8
+user_0242,19,Male,India,PhD,11.9,Desktop,Yes,4,12,57.1
+user_0243,18,Male,Canada,Bachelor,1.4,Tablet,No,3,5,87.6
+user_0244,29,Female,Canada,Master,19.0,Mobile,No,5,13,94.3
+user_0245,22,Other,India,Master,14.2,Tablet,Yes,2,6,98.5
+user_0246,54,Male,Canada,Master,10.4,Desktop,Yes,2,3,53.9
+user_0247,49,Other,Australia,Bachelor,18.7,Mobile,Yes,1,4,92.9
+user_0248,26,Female,Australia,Master,9.3,Tablet,No,3,6,59.7
+user_0249,58,Female,Australia,Bachelor,19.6,Mobile,No,4,7,46.8
+user_0250,52,Male,USA,Master,10.7,Mobile,No,2,1,92.2
+user_0251,36,Female,India,Other,3.2,Desktop,Yes,1,7,78.2
+user_0252,33,Male,USA,Other,15.5,Mobile,No,3,1,49.9
+user_0253,20,Female,Canada,Bachelor,13.9,Desktop,Yes,3,5,65.8
+user_0254,37,Female,USA,Other,15.7,Mobile,Yes,1,6,57.2
+user_0255,41,Male,Canada,Bachelor,19.1,Tablet,Yes,1,13,84.2
+user_0256,50,Male,Canada,Other,15.8,Mobile,No,4,2,67.2
+user_0257,41,Male,UK,Other,12.6,Tablet,No,1,13,99.4
+user_0258,28,Female,Australia,Bachelor,17.3,Tablet,Yes,4,10,43.3
+user_0259,25,Female,Canada,PhD,13.8,Mobile,No,4,9,61.3
+user_0260,53,Other,UK,Other,8.8,Tablet,Yes,5,14,68.9
+user_0261,55,Male,Australia,Master,17.8,Mobile,Yes,3,10,70.2
+user_0262,57,Female,Canada,PhD,5.2,Mobile,No,3,6,59.0
+user_0263,37,Female,Canada,Bachelor,14.6,Tablet,Yes,3,7,83.8
+user_0264,52,Male,USA,PhD,17.7,Tablet,Yes,5,14,92.5
+user_0265,42,Other,USA,High School,14.9,Desktop,No,4,10,96.3
+user_0266,52,Male,Australia,High School,14.2,Tablet,Yes,4,8,88.3
+user_0267,42,Other,Canada,Other,15.3,Desktop,Yes,1,11,91.0
+user_0268,46,Female,India,Other,9.8,Tablet,Yes,5,13,73.0
+user_0269,35,Other,USA,Master,17.6,Mobile,Yes,1,10,89.6
+user_0270,35,Female,Australia,PhD,4.9,Tablet,Yes,5,1,58.2
+user_0271,19,Male,Canada,High School,3.4,Mobile,Yes,1,14,63.9
+user_0272,52,Male,Canada,Other,6.4,Mobile,Yes,2,8,59.0
+user_0273,33,Male,India,PhD,11.1,Mobile,No,3,4,68.0
+user_0274,58,Other,Australia,Other,10.7,Desktop,No,3,10,57.1
+user_0275,53,Female,Canada,Other,16.6,Tablet,Yes,4,8,97.7
+user_0276,50,Male,USA,High School,8.7,Mobile,Yes,2,13,58.8
+user_0277,21,Male,India,High School,10.2,Mobile,No,3,6,45.9
+user_0278,50,Female,Australia,Other,1.3,Desktop,No,4,11,71.6
+user_0279,31,Male,India,Bachelor,8.8,Tablet,No,2,9,43.4
+user_0280,38,Female,USA,Other,13.3,Tablet,No,3,11,46.6
+user_0281,37,Female,Australia,Other,1.3,Desktop,No,1,4,53.2
+user_0282,25,Female,India,Master,6.3,Desktop,Yes,5,2,67.9
+user_0283,24,Female,UK,Master,5.0,Tablet,No,2,14,66.0
+user_0284,20,Female,USA,Master,1.8,Desktop,No,4,2,88.0
+user_0285,34,Other,USA,Bachelor,10.1,Tablet,No,2,5,84.4
+user_0286,50,Male,USA,Bachelor,4.5,Tablet,Yes,4,10,65.6
+user_0287,29,Other,UK,Other,15.1,Mobile,Yes,2,9,60.0
+user_0288,39,Male,UK,Master,17.1,Mobile,Yes,4,12,59.0
+user_0289,39,Other,Canada,Bachelor,11.4,Tablet,Yes,3,3,86.4
+user_0290,47,Female,India,High School,19.7,Tablet,Yes,1,8,43.1
+user_0291,55,Male,Canada,Other,9.6,Tablet,Yes,3,4,40.8
+user_0292,55,Male,India,PhD,10.8,Tablet,No,1,6,87.7
+user_0293,25,Other,UK,Other,19.8,Tablet,Yes,3,10,68.6
+user_0294,44,Other,UK,PhD,5.4,Tablet,Yes,3,6,47.9
+user_0295,44,Male,Canada,Master,18.9,Desktop,No,2,3,54.1
+user_0296,51,Other,Australia,PhD,1.8,Tablet,Yes,5,14,96.0
+user_0297,38,Other,Canada,Master,9.5,Desktop,No,4,5,91.6
+user_0298,47,Other,India,High School,2.3,Desktop,No,4,12,82.6
+user_0299,50,Female,Canada,PhD,14.9,Tablet,Yes,4,3,68.9
+user_0300,45,Female,USA,Other,12.6,Tablet,No,1,11,71.2
+user_0301,50,Other,India,Master,14.4,Desktop,No,4,11,98.5
+user_0302,22,Other,India,Other,8.1,Desktop,No,4,1,97.9
+user_0303,36,Female,Australia,Bachelor,8.0,Tablet,No,2,7,52.9
+user_0304,21,Female,UK,Master,1.9,Tablet,Yes,3,4,88.7
+user_0305,52,Male,India,PhD,7.6,Desktop,No,4,14,51.8
+user_0306,34,Male,UK,Master,18.7,Desktop,Yes,5,7,52.8
+user_0307,45,Female,Canada,Other,8.2,Desktop,No,4,3,80.6
+user_0308,47,Other,USA,High School,16.8,Mobile,No,1,12,64.3
+user_0309,46,Other,Australia,Master,17.0,Desktop,No,1,11,95.9
+user_0310,23,Other,UK,PhD,8.1,Mobile,Yes,1,5,45.3
+user_0311,52,Other,India,Bachelor,13.0,Tablet,Yes,4,5,70.7
+user_0312,58,Male,UK,High School,2.8,Tablet,Yes,2,13,95.1
+user_0313,54,Female,India,Bachelor,3.0,Desktop,No,5,2,94.2
+user_0314,41,Other,UK,Master,1.9,Tablet,No,4,11,49.4
+user_0315,46,Male,India,Other,12.0,Tablet,No,2,10,62.0
+user_0316,48,Other,Canada,Other,9.1,Tablet,No,2,12,77.1
+user_0317,52,Female,India,PhD,11.4,Tablet,Yes,4,2,49.6
+user_0318,50,Male,India,Other,10.9,Mobile,No,4,4,98.1
+user_0319,38,Female,USA,High School,7.7,Mobile,Yes,2,4,94.9
+user_0320,49,Female,India,Other,13.9,Desktop,No,2,4,50.0
+user_0321,40,Male,USA,PhD,15.4,Desktop,Yes,2,6,47.3
+user_0322,50,Male,Australia,Master,1.3,Desktop,Yes,4,2,45.1
+user_0323,20,Male,USA,Master,4.9,Tablet,No,2,6,94.6
+user_0324,35,Male,Canada,Other,14.6,Tablet,No,1,7,51.6
+user_0325,42,Male,USA,Bachelor,8.3,Mobile,Yes,4,11,65.0
+user_0326,59,Male,Australia,Master,13.6,Mobile,No,1,10,66.9
+user_0327,48,Male,Canada,Other,7.6,Desktop,No,3,3,75.9
+user_0328,20,Other,UK,PhD,8.4,Mobile,Yes,4,11,44.3
+user_0329,57,Female,UK,Other,4.0,Mobile,Yes,3,12,53.6
+user_0330,41,Male,USA,Master,5.9,Mobile,Yes,2,8,95.9
+user_0331,49,Other,USA,PhD,12.5,Mobile,Yes,2,2,94.5
+user_0332,39,Other,Australia,Other,9.2,Mobile,No,5,11,86.9
+user_0333,40,Other,Australia,High School,15.7,Desktop,Yes,2,8,41.2
+user_0334,19,Female,India,PhD,17.2,Desktop,Yes,3,13,59.6
+user_0335,44,Male,Australia,High School,11.3,Mobile,Yes,2,11,77.7
+user_0336,59,Other,India,Bachelor,15.4,Desktop,No,4,5,56.5
+user_0337,19,Female,Canada,PhD,6.8,Tablet,Yes,2,2,94.6
+user_0338,43,Female,USA,High School,8.9,Mobile,No,5,7,78.0
+user_0339,34,Female,Canada,Master,14.5,Tablet,Yes,2,14,44.3
+user_0340,57,Other,Australia,Master,8.3,Desktop,Yes,3,2,94.5
+user_0341,50,Male,Canada,Bachelor,12.2,Desktop,No,3,14,97.5
+user_0342,26,Other,Canada,PhD,4.5,Tablet,Yes,2,6,44.7
+user_0343,56,Other,Canada,PhD,12.4,Desktop,Yes,3,10,71.9
+user_0344,46,Male,Australia,PhD,17.4,Mobile,No,3,3,58.2
+user_0345,59,Male,Canada,Bachelor,17.5,Tablet,Yes,5,9,63.6
+user_0346,43,Male,India,PhD,14.8,Mobile,Yes,4,3,50.8
+user_0347,52,Female,Australia,Master,15.2,Tablet,Yes,5,11,74.7
+user_0348,42,Male,Canada,High School,11.6,Desktop,Yes,1,12,97.5
+user_0349,41,Other,Australia,Master,12.1,Tablet,No,5,12,70.2
+user_0350,30,Male,UK,Master,3.5,Tablet,Yes,2,3,45.0
+user_0351,24,Other,India,High School,9.4,Mobile,No,4,5,77.2
+user_0352,53,Female,Canada,Master,9.6,Desktop,Yes,2,7,60.4
+user_0353,37,Other,UK,Bachelor,19.2,Mobile,No,1,14,91.4
+user_0354,18,Other,UK,High School,9.2,Desktop,Yes,4,8,66.1
+user_0355,25,Male,Australia,Master,11.4,Mobile,No,3,12,51.6
+user_0356,33,Male,UK,Other,11.1,Tablet,Yes,5,11,51.5
+user_0357,31,Other,India,Master,13.1,Mobile,No,2,7,86.1
+user_0358,29,Male,India,Bachelor,15.2,Desktop,No,1,9,55.9
+user_0359,40,Female,USA,PhD,5.3,Desktop,Yes,3,5,86.0
+user_0360,32,Female,India,Master,11.0,Tablet,No,5,10,52.4
+user_0361,45,Male,UK,PhD,16.7,Desktop,Yes,3,11,59.3
+user_0362,51,Female,India,Other,9.8,Mobile,Yes,5,3,67.9
+user_0363,19,Male,Australia,Master,6.3,Tablet,Yes,4,6,96.6
+user_0364,49,Other,USA,High School,13.4,Desktop,Yes,3,5,95.9
+user_0365,40,Other,UK,PhD,16.7,Desktop,Yes,3,12,52.4
+user_0366,39,Female,USA,Other,2.2,Mobile,No,3,4,61.5
+user_0367,42,Male,UK,High School,15.8,Mobile,Yes,4,12,49.0
+user_0368,39,Male,Australia,High School,16.6,Tablet,Yes,1,2,70.6
+user_0369,39,Female,USA,High School,9.8,Desktop,Yes,5,7,67.6
+user_0370,59,Other,Canada,High School,19.7,Mobile,Yes,3,13,94.0
+user_0371,23,Female,UK,Master,15.9,Tablet,Yes,4,5,95.8
+user_0372,32,Other,Canada,Master,15.7,Desktop,Yes,1,4,63.0
+user_0373,54,Male,USA,Master,15.2,Desktop,No,5,12,69.5
+user_0374,50,Other,Canada,Other,3.9,Tablet,No,4,14,93.8
+user_0375,25,Female,Canada,Other,5.1,Tablet,Yes,5,8,88.4
+user_0376,22,Male,USA,Other,9.8,Mobile,No,3,9,40.2
+user_0377,56,Female,Australia,Bachelor,6.0,Desktop,Yes,1,9,59.2
+user_0378,21,Female,Canada,Other,8.9,Desktop,Yes,4,3,65.3
+user_0379,23,Other,Canada,Master,17.9,Desktop,Yes,1,3,53.8
+user_0380,49,Female,Australia,Master,16.7,Tablet,Yes,3,5,52.0
+user_0381,47,Other,Canada,Bachelor,13.0,Mobile,Yes,1,5,42.3
+user_0382,52,Male,Canada,Bachelor,17.3,Desktop,No,1,10,78.6
+user_0383,57,Other,Canada,Other,15.9,Tablet,No,2,2,55.8
+user_0384,33,Male,India,PhD,9.2,Desktop,No,1,1,43.1
+user_0385,30,Other,Australia,Bachelor,4.8,Mobile,No,5,8,53.9
+user_0386,59,Female,Canada,High School,10.8,Desktop,Yes,4,3,88.1
+user_0387,47,Other,Australia,Master,15.0,Mobile,No,2,1,91.1
+user_0388,36,Other,UK,High School,9.3,Mobile,Yes,4,1,69.0
+user_0389,34,Male,UK,Master,13.7,Desktop,No,4,11,65.0
+user_0390,36,Female,Canada,Master,2.8,Desktop,No,3,2,98.7
+user_0391,45,Other,Australia,Bachelor,15.2,Mobile,No,3,6,52.0
+user_0392,43,Female,Australia,Bachelor,16.4,Tablet,No,2,6,52.9
+user_0393,54,Other,Australia,High School,14.4,Mobile,Yes,3,14,57.5
+user_0394,43,Other,India,Master,19.4,Desktop,No,3,3,50.4
+user_0395,40,Female,UK,High School,16.7,Desktop,No,3,12,62.8
+user_0396,26,Other,Australia,PhD,18.2,Tablet,Yes,4,4,94.7
+user_0397,29,Female,Australia,High School,18.7,Mobile,Yes,2,12,76.9
+user_0398,18,Other,India,Other,16.2,Mobile,No,4,13,64.7
+user_0399,18,Male,India,High School,13.8,Mobile,Yes,5,2,96.1
+user_0400,51,Female,Australia,Other,1.1,Desktop,Yes,4,2,42.9
+user_0401,49,Other,USA,Other,9.9,Mobile,Yes,5,7,52.6
+user_0402,42,Other,Australia,Other,11.9,Tablet,No,1,13,74.0
+user_0403,57,Male,Australia,PhD,6.8,Desktop,Yes,1,1,76.9
+user_0404,18,Female,India,High School,7.0,Desktop,No,5,7,42.4
+user_0405,33,Other,India,High School,19.3,Mobile,No,5,14,64.2
+user_0406,56,Male,Australia,PhD,17.9,Tablet,No,4,12,78.9
+user_0407,22,Other,Australia,Master,17.1,Desktop,No,5,14,81.9
+user_0408,39,Female,Australia,Bachelor,8.7,Desktop,Yes,2,12,78.3
+user_0409,46,Other,India,High School,1.3,Mobile,No,1,14,59.2
+user_0410,20,Other,Australia,Bachelor,2.5,Mobile,Yes,1,1,45.6
+user_0411,29,Other,Australia,PhD,6.9,Tablet,No,5,14,65.6
+user_0412,43,Other,Canada,Master,1.3,Mobile,Yes,3,6,47.7
+user_0413,33,Male,USA,Master,1.3,Tablet,No,3,3,96.9
+user_0414,54,Male,UK,Master,18.4,Desktop,Yes,5,8,68.5
+user_0415,39,Female,USA,PhD,14.4,Tablet,No,2,6,59.0
+user_0416,46,Male,Canada,Other,6.9,Tablet,No,3,11,86.0
+user_0417,31,Male,UK,Other,3.5,Tablet,Yes,5,2,69.9
+user_0418,45,Female,Australia,Bachelor,10.7,Desktop,No,2,8,58.6
+user_0419,22,Male,Canada,Other,1.1,Mobile,No,2,5,88.7
+user_0420,47,Male,Australia,Other,18.8,Desktop,No,4,8,92.0
+user_0421,22,Female,India,Master,8.9,Mobile,Yes,2,8,80.4
+user_0422,29,Female,Canada,Master,8.6,Tablet,No,3,6,42.8
+user_0423,33,Female,India,Bachelor,8.4,Tablet,No,3,2,74.0
+user_0424,43,Other,Canada,High School,2.3,Tablet,Yes,5,8,85.8
+user_0425,43,Other,Canada,Bachelor,13.1,Tablet,Yes,5,11,48.2
+user_0426,38,Female,India,Bachelor,14.9,Tablet,Yes,2,6,53.7
+user_0427,56,Female,UK,PhD,13.8,Mobile,Yes,1,6,92.9
+user_0428,53,Female,USA,PhD,3.6,Mobile,Yes,4,8,41.2
+user_0429,50,Other,Australia,Bachelor,12.0,Tablet,No,1,1,85.2
+user_0430,47,Other,Canada,Bachelor,11.8,Desktop,No,2,2,68.4
+user_0431,54,Male,Australia,Bachelor,17.5,Desktop,No,2,12,66.8
+user_0432,40,Male,India,Other,8.2,Tablet,Yes,1,12,40.4
+user_0433,27,Female,Australia,PhD,8.1,Mobile,No,4,9,89.2
+user_0434,22,Other,India,Bachelor,12.8,Desktop,Yes,1,11,61.6
+user_0435,53,Other,Australia,Master,13.0,Desktop,Yes,5,12,72.4
+user_0436,51,Other,USA,Master,9.9,Desktop,No,3,8,80.6
+user_0437,48,Female,USA,Other,9.4,Tablet,Yes,5,12,82.2
+user_0438,27,Male,USA,Other,10.4,Desktop,Yes,3,7,97.4
+user_0439,36,Female,USA,High School,17.4,Desktop,No,2,7,71.9
+user_0440,49,Male,USA,High School,9.8,Desktop,Yes,4,5,64.0
+user_0441,18,Male,USA,High School,18.9,Desktop,Yes,1,2,97.2
+user_0442,22,Female,India,Other,10.6,Mobile,No,4,11,78.5
+user_0443,21,Male,Canada,Other,19.0,Tablet,Yes,1,6,57.9
+user_0444,33,Male,Australia,Other,16.8,Tablet,Yes,5,10,47.6
+user_0445,41,Other,USA,Master,7.9,Mobile,No,5,3,90.6
+user_0446,33,Male,India,Other,17.4,Mobile,No,1,4,61.7
+user_0447,19,Female,India,Master,3.1,Tablet,No,4,13,79.6
+user_0448,45,Female,India,High School,18.6,Desktop,No,1,10,68.2
+user_0449,49,Male,Canada,High School,13.0,Desktop,Yes,2,12,51.9
+user_0450,44,Other,Australia,High School,2.0,Tablet,Yes,5,11,76.1
+user_0451,37,Other,Canada,Bachelor,13.2,Desktop,No,2,2,43.6
+user_0452,41,Male,UK,Bachelor,19.5,Mobile,Yes,5,14,64.8
+user_0453,29,Male,India,PhD,2.3,Desktop,Yes,5,2,72.8
+user_0454,52,Female,UK,PhD,11.5,Desktop,No,3,12,66.2
+user_0455,50,Male,USA,PhD,15.2,Desktop,No,2,8,84.9
+user_0456,50,Other,USA,Bachelor,16.4,Tablet,Yes,2,8,89.7
+user_0457,54,Male,Canada,Bachelor,8.9,Mobile,No,3,10,86.3
+user_0458,29,Female,Australia,PhD,4.9,Desktop,No,4,6,42.3
+user_0459,20,Female,UK,PhD,1.8,Tablet,No,2,13,51.6
+user_0460,18,Female,Australia,Other,12.0,Desktop,Yes,1,5,72.2
+user_0461,50,Female,Canada,PhD,9.6,Mobile,No,3,8,96.1
+user_0462,57,Female,USA,Other,19.0,Desktop,Yes,2,4,90.1
+user_0463,27,Male,Australia,Master,2.2,Mobile,Yes,4,11,90.6
+user_0464,46,Male,Australia,Bachelor,14.0,Desktop,Yes,2,4,58.2
+user_0465,30,Male,USA,PhD,1.5,Mobile,No,5,5,65.8
+user_0466,29,Male,UK,Bachelor,4.3,Desktop,No,1,1,68.2
+user_0467,48,Female,USA,Bachelor,9.6,Mobile,No,3,1,49.4
+user_0468,19,Other,Australia,Bachelor,9.6,Desktop,No,5,2,41.9
+user_0469,52,Male,UK,Master,14.0,Desktop,No,4,14,96.8
+user_0470,40,Other,UK,High School,18.3,Tablet,Yes,5,8,54.4
+user_0471,34,Male,USA,PhD,13.1,Tablet,Yes,5,7,54.4
+user_0472,43,Male,Australia,High School,19.1,Mobile,Yes,4,10,45.0
+user_0473,25,Other,Canada,High School,17.8,Desktop,No,5,9,95.7
+user_0474,46,Female,Australia,High School,12.1,Mobile,Yes,3,5,74.8
+user_0475,43,Male,India,Bachelor,16.8,Tablet,Yes,2,2,80.0
+user_0476,27,Male,Canada,Other,13.2,Mobile,No,5,7,94.7
+user_0477,43,Male,UK,Bachelor,2.5,Mobile,No,3,8,60.7
+user_0478,51,Other,Canada,Bachelor,15.1,Tablet,Yes,2,12,77.3
+user_0479,58,Female,UK,High School,2.8,Desktop,Yes,2,7,42.3
+user_0480,24,Other,UK,Bachelor,12.3,Mobile,No,5,14,51.2
+user_0481,21,Other,Canada,High School,14.4,Tablet,No,3,7,89.9
+user_0482,28,Female,UK,Other,2.3,Desktop,No,5,12,86.0
+user_0483,46,Other,UK,PhD,5.4,Tablet,No,4,14,61.0
+user_0484,53,Female,India,High School,18.4,Mobile,Yes,2,5,62.6
+user_0485,42,Male,Australia,Other,12.7,Desktop,Yes,5,2,72.0
+user_0486,38,Female,Australia,PhD,5.7,Desktop,No,2,6,40.0
+user_0487,53,Male,India,Master,14.1,Tablet,Yes,3,4,54.5
+user_0488,27,Other,Canada,High School,12.3,Tablet,Yes,1,10,52.5
+user_0489,54,Other,USA,High School,10.5,Tablet,No,5,2,55.0
+user_0490,26,Male,USA,Master,19.5,Desktop,Yes,5,12,88.4
+user_0491,41,Other,USA,Master,14.0,Desktop,Yes,2,9,56.8
+user_0492,52,Female,India,High School,8.1,Mobile,Yes,3,7,51.5
+user_0493,52,Male,India,Master,16.2,Desktop,No,4,6,70.3
+user_0494,53,Other,UK,Bachelor,17.8,Mobile,No,3,12,91.9
+user_0495,35,Male,USA,PhD,3.4,Tablet,Yes,5,5,54.5
+user_0496,56,Female,Canada,PhD,4.8,Tablet,No,4,3,44.7
+user_0497,49,Female,Canada,PhD,5.1,Desktop,No,3,12,61.4
+user_0498,41,Other,USA,Bachelor,14.1,Tablet,No,1,10,84.9
+user_0499,40,Female,USA,Master,12.5,Tablet,Yes,2,10,73.0
+user_0500,49,Male,USA,Other,12.8,Desktop,Yes,3,4,89.0
+user_0501,54,Female,India,Master,18.9,Mobile,No,3,3,97.6
+user_0502,29,Male,India,High School,15.7,Desktop,Yes,1,12,87.6
+user_0503,30,Male,India,PhD,3.4,Mobile,Yes,5,11,76.2
+user_0504,40,Female,Australia,Master,7.6,Desktop,Yes,2,8,69.6
+user_0505,42,Other,Canada,Other,9.3,Desktop,Yes,3,3,42.4
+user_0506,52,Female,Canada,High School,8.5,Tablet,Yes,4,7,99.1
+user_0507,58,Male,UK,Bachelor,13.7,Desktop,No,3,7,63.0
+user_0508,47,Male,India,Bachelor,17.9,Desktop,Yes,2,7,49.1
+user_0509,34,Female,Australia,Other,6.8,Mobile,Yes,3,13,80.0
+user_0510,37,Other,Australia,High School,11.5,Tablet,Yes,1,7,57.1
+user_0511,42,Other,Canada,PhD,16.0,Mobile,No,3,14,75.1
+user_0512,39,Male,India,Master,8.9,Mobile,No,3,2,75.2
+user_0513,30,Male,UK,High School,4.2,Tablet,No,4,10,66.7
+user_0514,36,Other,India,Bachelor,10.0,Tablet,Yes,1,3,90.2
+user_0515,53,Female,USA,Other,2.0,Tablet,No,1,10,55.9
+user_0516,29,Male,India,Other,18.9,Desktop,No,3,9,66.9
+user_0517,58,Male,USA,Master,2.4,Tablet,No,4,3,72.3
+user_0518,36,Other,USA,Other,9.3,Tablet,No,3,2,79.8
+user_0519,29,Female,UK,Other,11.1,Tablet,Yes,3,9,87.0
+user_0520,26,Other,Canada,High School,19.7,Mobile,No,2,13,63.7
+user_0521,24,Female,India,PhD,4.2,Mobile,No,2,10,78.8
+user_0522,45,Female,USA,Master,3.2,Desktop,Yes,4,9,49.0
+user_0523,31,Female,India,High School,1.2,Mobile,Yes,5,4,96.0
+user_0524,48,Male,Canada,PhD,4.0,Desktop,No,2,14,63.0
+user_0525,36,Other,Canada,High School,4.9,Mobile,Yes,5,12,83.8
+user_0526,33,Other,Australia,High School,13.0,Tablet,No,1,9,41.2
+user_0527,22,Female,Canada,Other,5.2,Mobile,Yes,2,3,52.3
+user_0528,52,Male,UK,PhD,1.4,Desktop,Yes,2,7,69.2
+user_0529,29,Male,USA,Master,16.7,Mobile,No,4,7,92.7
+user_0530,42,Other,Australia,Master,7.9,Tablet,Yes,5,11,71.6
+user_0531,38,Male,UK,PhD,7.7,Desktop,No,2,8,95.8
+user_0532,53,Male,India,Other,6.7,Tablet,Yes,2,10,69.0
+user_0533,40,Female,USA,Bachelor,19.5,Tablet,No,4,4,69.4
+user_0534,33,Male,Canada,High School,4.2,Desktop,Yes,4,3,47.2
+user_0535,56,Female,USA,Other,18.1,Tablet,Yes,5,3,88.2
+user_0536,59,Other,India,PhD,15.8,Tablet,Yes,1,12,54.8
+user_0537,56,Male,Australia,High School,2.5,Mobile,Yes,1,5,94.0
+user_0538,31,Other,Australia,Master,19.7,Tablet,Yes,3,11,94.6
+user_0539,48,Other,Australia,Bachelor,6.2,Tablet,No,2,14,96.6
+user_0540,22,Male,Canada,Master,2.9,Tablet,Yes,5,1,71.2
+user_0541,52,Male,UK,PhD,16.8,Tablet,No,2,10,80.6
+user_0542,40,Other,UK,High School,14.4,Desktop,No,5,3,86.7
+user_0543,46,Male,USA,PhD,12.7,Mobile,No,5,14,47.9
+user_0544,28,Female,Canada,High School,4.0,Tablet,Yes,5,6,76.1
+user_0545,35,Female,Australia,Other,10.1,Tablet,No,2,3,42.1
+user_0546,29,Male,Australia,Bachelor,15.8,Desktop,Yes,4,5,69.9
+user_0547,26,Other,India,Other,6.8,Tablet,No,2,9,49.3
+user_0548,27,Male,India,Other,6.9,Desktop,No,5,2,51.0
+user_0549,34,Male,Australia,PhD,1.1,Mobile,No,3,11,61.9
+user_0550,55,Other,Australia,Bachelor,4.3,Mobile,No,1,2,65.9
+user_0551,24,Other,Canada,High School,17.6,Tablet,No,5,12,77.4
+user_0552,30,Female,UK,High School,9.4,Tablet,Yes,3,6,44.5
+user_0553,57,Other,India,Master,19.7,Tablet,No,4,6,70.2
+user_0554,59,Female,UK,High School,8.5,Desktop,No,5,11,51.0
+user_0555,26,Other,Canada,PhD,14.6,Tablet,Yes,3,11,74.4
+user_0556,44,Male,Australia,Other,6.4,Tablet,Yes,5,8,78.2
+user_0557,19,Female,UK,Other,7.9,Mobile,Yes,2,12,73.4
+user_0558,22,Female,Australia,Other,4.6,Tablet,No,3,13,84.3
+user_0559,46,Female,Australia,Bachelor,7.6,Mobile,No,2,11,60.1
+user_0560,54,Male,USA,High School,11.4,Tablet,No,2,14,85.9
+user_0561,55,Male,UK,PhD,19.8,Mobile,No,3,2,66.0
+user_0562,36,Male,UK,Bachelor,13.6,Tablet,No,1,9,69.1
+user_0563,25,Male,Australia,Master,4.8,Mobile,No,3,2,78.9
+user_0564,18,Male,Canada,PhD,1.9,Desktop,Yes,1,13,41.1
+user_0565,39,Female,USA,PhD,3.4,Mobile,Yes,5,1,79.2
+user_0566,34,Male,Australia,PhD,11.7,Mobile,No,5,10,77.1
+user_0567,24,Female,India,Other,15.5,Mobile,No,3,2,58.6
+user_0568,42,Male,India,PhD,18.9,Tablet,No,5,12,45.1
+user_0569,21,Other,USA,High School,1.3,Tablet,No,4,7,45.5
+user_0570,53,Female,Canada,PhD,10.9,Tablet,No,2,8,95.4
+user_0571,23,Other,Australia,Other,9.9,Desktop,Yes,2,5,81.4
+user_0572,48,Female,UK,PhD,13.5,Desktop,Yes,1,6,47.6
+user_0573,36,Other,USA,Master,11.6,Mobile,No,5,12,61.4
+user_0574,56,Male,Canada,Master,14.1,Desktop,Yes,1,1,75.5
+user_0575,44,Male,UK,Other,13.5,Mobile,No,2,6,90.1
+user_0576,27,Male,India,High School,3.2,Mobile,No,2,12,42.6
+user_0577,43,Female,India,High School,16.2,Mobile,No,5,8,54.2
+user_0578,36,Other,UK,Bachelor,3.3,Desktop,Yes,4,13,93.4
+user_0579,56,Male,USA,Other,14.3,Tablet,Yes,4,3,40.5
+user_0580,20,Other,India,PhD,8.9,Desktop,No,5,11,52.1
+user_0581,30,Other,Australia,Other,10.8,Mobile,Yes,5,1,97.5
+user_0582,45,Male,UK,Bachelor,18.2,Mobile,Yes,1,11,76.8
+user_0583,37,Male,UK,Other,17.9,Desktop,No,5,4,55.7
+user_0584,45,Other,India,Other,16.5,Mobile,Yes,4,1,44.0
+user_0585,25,Male,USA,Bachelor,10.7,Mobile,Yes,5,14,41.7
+user_0586,58,Male,Australia,High School,15.0,Desktop,No,1,8,54.7
+user_0587,56,Male,USA,PhD,10.7,Desktop,No,1,5,92.9
+user_0588,18,Female,Canada,Bachelor,17.5,Desktop,Yes,1,1,65.0
+user_0589,20,Other,Canada,Master,8.7,Mobile,No,1,14,83.2
+user_0590,30,Other,India,High School,19.4,Mobile,Yes,3,8,95.1
+user_0591,45,Female,India,Master,18.7,Tablet,No,5,9,64.5
+user_0592,42,Other,India,High School,15.1,Tablet,No,2,10,51.5
+user_0593,50,Male,Canada,PhD,6.3,Desktop,No,5,2,71.0
+user_0594,55,Other,USA,PhD,3.5,Tablet,No,3,9,94.5
+user_0595,23,Male,USA,Other,17.2,Mobile,Yes,1,8,88.3
+user_0596,49,Female,India,Master,4.1,Tablet,No,3,7,43.9
+user_0597,38,Male,Australia,High School,17.2,Mobile,No,4,3,81.6
+user_0598,33,Other,USA,PhD,10.3,Desktop,No,4,2,74.3
+user_0599,38,Other,Canada,Bachelor,8.7,Desktop,Yes,5,7,94.4
+user_0600,28,Other,UK,PhD,18.2,Mobile,Yes,5,5,47.3
+user_0601,54,Female,UK,Bachelor,12.5,Tablet,No,2,6,72.0
+user_0602,53,Female,UK,High School,12.0,Desktop,No,2,4,92.8
+user_0603,52,Other,Australia,PhD,11.6,Desktop,No,4,2,64.6
+user_0604,36,Male,India,PhD,8.1,Tablet,No,1,9,68.9
+user_0605,37,Female,Canada,High School,15.9,Tablet,No,3,3,44.2
+user_0606,35,Other,Australia,PhD,5.8,Mobile,No,2,12,56.7
+user_0607,58,Other,Canada,Bachelor,18.8,Tablet,Yes,2,14,59.5
+user_0608,31,Female,Canada,PhD,18.0,Tablet,No,1,7,96.7
+user_0609,32,Female,India,Master,7.4,Tablet,No,1,14,57.0
+user_0610,48,Female,UK,Other,14.9,Mobile,No,5,8,67.7
+user_0611,18,Male,India,Bachelor,11.9,Mobile,No,3,2,80.3
+user_0612,20,Male,Australia,Master,7.4,Desktop,No,1,14,49.7
+user_0613,33,Other,Australia,High School,19.8,Mobile,No,2,6,69.2
+user_0614,40,Female,Australia,Bachelor,1.5,Desktop,Yes,2,11,84.3
+user_0615,28,Male,India,Other,5.8,Tablet,Yes,4,8,92.0
+user_0616,29,Female,Canada,Other,10.9,Desktop,Yes,1,7,77.6
+user_0617,27,Other,Canada,High School,10.9,Desktop,Yes,5,11,80.1
+user_0618,49,Male,USA,High School,12.2,Tablet,Yes,3,3,47.6
+user_0619,33,Male,Australia,Bachelor,15.3,Desktop,Yes,5,1,96.7
+user_0620,25,Male,Canada,PhD,12.8,Mobile,No,2,14,48.0
+user_0621,55,Other,USA,High School,12.4,Mobile,No,5,6,86.5
+user_0622,29,Female,Canada,PhD,2.0,Mobile,No,2,8,55.9
+user_0623,41,Male,Australia,Master,8.2,Mobile,No,2,6,96.0
+user_0624,45,Other,UK,Other,5.4,Desktop,No,2,5,83.2
+user_0625,25,Female,Australia,PhD,6.0,Desktop,No,2,11,85.2
+user_0626,45,Other,India,Other,11.5,Tablet,Yes,2,12,53.1
+user_0627,53,Female,Canada,PhD,4.8,Desktop,No,4,8,66.6
+user_0628,43,Other,Canada,Master,6.6,Desktop,Yes,5,2,77.1
+user_0629,25,Female,India,High School,5.5,Desktop,Yes,4,12,86.2
+user_0630,45,Male,India,Master,19.0,Tablet,No,4,1,46.2
+user_0631,45,Female,UK,High School,18.9,Mobile,No,1,1,97.7
+user_0632,54,Other,Canada,High School,12.6,Desktop,No,1,14,93.4
+user_0633,58,Other,Canada,Other,18.6,Tablet,No,1,4,56.2
+user_0634,53,Female,UK,Master,15.9,Tablet,No,3,6,89.4
+user_0635,44,Male,USA,PhD,12.2,Tablet,No,1,13,71.1
+user_0636,34,Male,UK,Master,1.1,Mobile,No,5,9,67.7
+user_0637,26,Female,Australia,Other,15.7,Desktop,Yes,4,1,58.9
+user_0638,50,Female,Canada,High School,14.3,Tablet,No,5,12,74.9
+user_0639,37,Other,India,Other,12.7,Mobile,No,1,1,83.8
+user_0640,30,Male,Australia,Bachelor,15.4,Tablet,Yes,3,13,64.7
+user_0641,45,Female,Canada,Bachelor,10.7,Tablet,No,3,13,77.8
+user_0642,46,Male,UK,PhD,14.4,Tablet,No,4,5,82.0
+user_0643,30,Female,Australia,Other,18.8,Tablet,Yes,5,10,82.7
+user_0644,52,Female,Canada,PhD,8.1,Tablet,No,2,5,43.1
+user_0645,23,Male,USA,PhD,14.5,Mobile,No,5,5,91.6
+user_0646,35,Female,USA,Bachelor,10.0,Desktop,No,1,10,67.5
+user_0647,22,Female,India,PhD,13.8,Desktop,No,2,6,55.7
+user_0648,42,Other,Canada,Bachelor,15.5,Desktop,No,3,8,54.5
+user_0649,19,Female,USA,High School,1.9,Desktop,No,4,3,69.0
+user_0650,27,Female,UK,Other,13.3,Mobile,Yes,4,9,93.2
+user_0651,47,Female,Canada,PhD,5.3,Mobile,No,3,13,62.7
+user_0652,22,Other,UK,Bachelor,13.7,Mobile,No,1,1,85.0
+user_0653,50,Male,UK,Master,9.9,Tablet,Yes,3,4,45.8
+user_0654,18,Other,USA,PhD,15.7,Tablet,Yes,1,9,68.6
+user_0655,35,Other,Canada,High School,3.3,Tablet,No,2,14,99.5
+user_0656,49,Male,Australia,High School,12.9,Desktop,Yes,3,8,86.2
+user_0657,28,Other,USA,Master,6.3,Tablet,No,1,10,52.6
+user_0658,38,Male,USA,Bachelor,17.2,Desktop,No,2,9,70.1
+user_0659,43,Other,Canada,PhD,18.6,Tablet,Yes,3,1,54.0
+user_0660,42,Male,Canada,Bachelor,19.9,Desktop,No,4,9,64.6
+user_0661,39,Female,UK,High School,16.1,Tablet,No,3,3,86.8
+user_0662,44,Other,Canada,Bachelor,15.3,Tablet,Yes,5,11,86.3
+user_0663,30,Other,UK,High School,5.1,Mobile,Yes,3,12,53.7
+user_0664,50,Other,USA,Bachelor,7.4,Tablet,Yes,5,10,95.3
+user_0665,51,Other,India,Master,9.8,Tablet,Yes,2,9,75.6
+user_0666,58,Female,Australia,Other,15.7,Mobile,No,3,1,62.8
+user_0667,52,Other,USA,Master,18.4,Desktop,Yes,2,1,70.1
+user_0668,18,Female,Canada,Master,4.6,Mobile,Yes,2,9,76.3
+user_0669,38,Female,Australia,Other,18.5,Mobile,Yes,1,11,73.6
+user_0670,23,Female,India,Other,14.2,Desktop,Yes,2,14,69.2
+user_0671,45,Female,India,PhD,12.6,Tablet,Yes,2,6,70.3
+user_0672,34,Male,UK,PhD,4.8,Desktop,No,3,4,50.6
+user_0673,22,Male,Australia,Master,2.1,Tablet,Yes,3,7,88.8
+user_0674,48,Other,UK,Master,11.8,Tablet,No,4,5,72.5
+user_0675,22,Male,USA,High School,13.4,Desktop,Yes,1,10,47.9
+user_0676,55,Male,Australia,High School,5.0,Mobile,Yes,2,14,86.0
+user_0677,20,Other,USA,PhD,11.6,Desktop,Yes,1,7,95.9
+user_0678,40,Other,UK,PhD,17.3,Tablet,Yes,5,8,96.8
+user_0679,54,Other,Australia,High School,16.9,Desktop,Yes,2,8,62.1
+user_0680,54,Male,UK,High School,18.6,Desktop,Yes,1,1,48.1
+user_0681,27,Male,Australia,Bachelor,8.0,Tablet,Yes,4,8,71.1
+user_0682,27,Other,UK,Bachelor,7.0,Mobile,Yes,4,6,46.8
+user_0683,36,Female,India,High School,15.2,Desktop,No,2,4,96.0
+user_0684,34,Other,UK,Bachelor,9.2,Tablet,Yes,5,13,51.0
+user_0685,38,Female,India,Other,2.7,Tablet,No,4,14,55.2
+user_0686,31,Female,UK,PhD,6.4,Desktop,Yes,4,12,64.4
+user_0687,26,Other,Australia,PhD,9.0,Mobile,No,5,8,63.0
+user_0688,18,Other,Australia,High School,6.6,Desktop,Yes,1,3,87.7
+user_0689,30,Other,Australia,Master,7.3,Mobile,Yes,4,13,67.4
+user_0690,21,Male,Canada,High School,6.6,Mobile,Yes,3,4,50.2
+user_0691,18,Female,USA,Bachelor,1.8,Mobile,No,4,6,56.0
+user_0692,57,Male,Australia,Master,13.1,Mobile,No,1,11,70.5
+user_0693,49,Male,India,Bachelor,12.3,Desktop,No,1,7,48.8
+user_0694,51,Other,Australia,Other,13.4,Tablet,No,2,4,76.7
+user_0695,45,Male,Canada,Bachelor,4.7,Tablet,Yes,3,4,73.9
+user_0696,48,Other,India,Other,6.6,Tablet,Yes,1,7,82.9
+user_0697,25,Female,Canada,Other,12.8,Tablet,Yes,5,6,96.3
+user_0698,56,Other,India,Bachelor,12.4,Tablet,No,3,13,94.7
+user_0699,43,Male,UK,Bachelor,10.6,Tablet,Yes,3,11,96.8
+user_0700,51,Male,USA,Other,7.7,Desktop,No,5,8,54.7
+user_0701,20,Other,USA,Master,18.3,Mobile,No,4,1,47.9
+user_0702,29,Other,Canada,Other,7.5,Tablet,No,5,10,58.1
+user_0703,18,Male,USA,PhD,9.7,Desktop,No,5,13,93.7
+user_0704,22,Female,Canada,Other,13.9,Tablet,No,4,11,98.3
+user_0705,47,Female,Canada,Master,11.3,Tablet,Yes,4,7,91.6
+user_0706,47,Other,Canada,PhD,7.6,Mobile,No,4,12,46.6
+user_0707,34,Female,USA,High School,9.3,Mobile,No,4,7,96.8
+user_0708,40,Male,Canada,High School,16.1,Mobile,Yes,4,11,65.4
+user_0709,32,Other,USA,Master,6.3,Tablet,No,5,7,40.6
+user_0710,54,Male,Canada,Other,3.7,Tablet,No,2,7,66.5
+user_0711,38,Male,Australia,Bachelor,7.0,Tablet,Yes,2,10,42.8
+user_0712,31,Female,Canada,Master,17.1,Mobile,Yes,1,14,72.6
+user_0713,19,Other,India,PhD,2.7,Desktop,Yes,2,10,60.3
+user_0714,28,Other,Canada,PhD,19.8,Tablet,No,2,8,68.4
+user_0715,56,Female,UK,High School,11.3,Tablet,Yes,5,9,76.8
+user_0716,55,Male,Canada,PhD,19.7,Tablet,Yes,4,9,92.1
+user_0717,51,Male,India,Master,18.8,Desktop,Yes,4,2,79.7
+user_0718,55,Male,India,PhD,9.6,Tablet,No,5,13,66.0
+user_0719,51,Male,USA,Master,4.8,Desktop,Yes,2,13,89.2
+user_0720,35,Other,Australia,Bachelor,4.1,Tablet,No,5,7,94.3
+user_0721,47,Other,Canada,High School,5.6,Desktop,No,1,7,47.2
+user_0722,32,Female,USA,PhD,14.5,Tablet,Yes,4,4,71.9
+user_0723,44,Female,Australia,Master,6.2,Mobile,No,3,9,57.1
+user_0724,51,Other,Canada,Other,7.5,Mobile,No,1,8,42.8
+user_0725,55,Other,UK,High School,9.5,Mobile,Yes,1,12,80.1
+user_0726,50,Male,Canada,Bachelor,18.4,Mobile,No,5,1,91.8
+user_0727,41,Male,India,Master,4.6,Tablet,Yes,2,2,49.8
+user_0728,32,Female,India,Bachelor,1.1,Mobile,No,4,13,88.7
+user_0729,47,Other,UK,Bachelor,2.1,Desktop,No,3,13,91.2
+user_0730,59,Female,USA,PhD,18.2,Mobile,Yes,1,2,94.9
+user_0731,34,Other,Australia,PhD,13.3,Mobile,Yes,3,12,55.9
+user_0732,22,Male,Canada,Master,6.2,Mobile,No,2,12,94.2
+user_0733,46,Female,India,Other,4.4,Tablet,No,2,11,59.2
+user_0734,21,Female,USA,Master,6.6,Mobile,Yes,3,8,73.1
+user_0735,27,Other,UK,Other,3.2,Desktop,No,4,1,43.0
+user_0736,34,Male,India,Bachelor,18.9,Mobile,No,2,4,42.6
+user_0737,27,Female,UK,High School,15.9,Mobile,No,3,10,83.2
+user_0738,34,Male,Canada,Master,9.8,Mobile,No,1,12,66.7
+user_0739,37,Female,Australia,Master,17.4,Desktop,Yes,3,5,55.4
+user_0740,41,Male,India,Other,5.7,Mobile,Yes,3,9,51.4
+user_0741,22,Other,India,Bachelor,14.6,Desktop,Yes,5,7,80.2
+user_0742,51,Female,Canada,Bachelor,17.3,Desktop,Yes,2,8,40.0
+user_0743,23,Female,USA,Other,7.8,Mobile,Yes,4,14,88.4
+user_0744,19,Male,Australia,Bachelor,15.4,Desktop,Yes,4,11,44.8
+user_0745,30,Male,India,PhD,6.6,Tablet,No,5,9,51.5
+user_0746,28,Female,Australia,High School,6.7,Mobile,Yes,4,13,63.2
+user_0747,40,Other,India,Master,3.0,Mobile,No,3,7,69.1
+user_0748,33,Male,Australia,High School,9.4,Desktop,No,5,5,61.3
+user_0749,48,Male,UK,Master,14.9,Desktop,No,1,13,59.2
+user_0750,28,Male,India,PhD,18.9,Mobile,Yes,2,5,97.8
+user_0751,33,Female,Australia,Bachelor,12.5,Tablet,No,2,10,78.5
+user_0752,25,Female,USA,Other,17.4,Desktop,Yes,2,11,41.4
+user_0753,21,Female,UK,PhD,16.6,Desktop,No,3,6,65.8
+user_0754,57,Female,UK,High School,4.3,Tablet,No,1,5,92.5
+user_0755,21,Other,USA,Other,10.2,Tablet,Yes,5,13,58.1
+user_0756,42,Other,Australia,Bachelor,3.2,Mobile,No,5,12,45.7
+user_0757,20,Female,Canada,PhD,14.0,Tablet,No,2,11,85.5
+user_0758,49,Other,USA,Other,19.0,Mobile,No,1,9,76.4
+user_0759,20,Male,Australia,PhD,3.6,Tablet,No,1,3,74.2
+user_0760,44,Male,USA,PhD,14.9,Desktop,Yes,1,3,43.2
+user_0761,46,Male,USA,Bachelor,13.0,Mobile,No,4,7,48.4
+user_0762,49,Female,India,Master,12.1,Mobile,No,4,7,77.4
+user_0763,36,Male,Australia,Other,8.4,Mobile,Yes,2,6,52.5
+user_0764,38,Other,Canada,Bachelor,7.7,Tablet,No,1,3,70.2
+user_0765,22,Female,India,PhD,1.9,Desktop,No,1,14,72.7
+user_0766,35,Other,USA,Bachelor,5.1,Mobile,No,5,13,57.0
+user_0767,45,Male,USA,Master,1.3,Mobile,No,5,7,96.9
+user_0768,59,Male,USA,Other,12.0,Mobile,Yes,2,5,90.5
+user_0769,39,Male,Australia,Master,3.0,Mobile,No,1,7,83.3
+user_0770,38,Female,Australia,High School,17.6,Desktop,Yes,2,2,44.7
+user_0771,23,Other,India,Other,10.9,Tablet,No,5,6,46.4
+user_0772,18,Female,Canada,Master,14.3,Desktop,No,5,14,69.6
+user_0773,22,Female,India,PhD,8.8,Mobile,No,4,8,49.6
+user_0774,58,Male,UK,Other,11.7,Desktop,Yes,2,1,98.7
+user_0775,29,Female,USA,Other,18.9,Mobile,No,2,4,49.5
+user_0776,43,Female,USA,Bachelor,2.6,Tablet,No,1,11,69.2
+user_0777,51,Male,USA,PhD,5.8,Tablet,Yes,1,1,61.8
+user_0778,31,Female,India,High School,15.8,Tablet,Yes,4,14,78.4
+user_0779,43,Male,India,Master,2.9,Mobile,Yes,3,1,47.7
+user_0780,44,Male,USA,Bachelor,2.4,Desktop,Yes,3,10,65.8
+user_0781,26,Male,India,Master,7.9,Tablet,No,3,12,56.5
+user_0782,43,Male,Australia,High School,2.8,Mobile,No,2,14,93.3
+user_0783,39,Female,Australia,High School,12.1,Mobile,No,2,14,42.4
+user_0784,47,Male,India,Other,5.3,Desktop,No,5,11,94.8
+user_0785,34,Male,USA,High School,18.0,Tablet,Yes,2,8,90.0
+user_0786,43,Female,India,Master,15.9,Mobile,No,2,7,57.9
+user_0787,53,Female,India,PhD,14.3,Desktop,No,2,12,87.4
+user_0788,18,Other,India,PhD,12.7,Tablet,No,4,10,41.9
+user_0789,25,Female,UK,Other,17.4,Desktop,No,2,13,98.0
+user_0790,52,Female,Australia,Master,5.2,Desktop,Yes,1,1,71.6
+user_0791,32,Other,Canada,Master,17.6,Mobile,No,1,11,58.2
+user_0792,39,Female,Canada,High School,16.0,Mobile,No,5,14,61.8
+user_0793,31,Female,UK,Master,15.2,Mobile,No,4,13,44.0
+user_0794,43,Female,India,Bachelor,11.7,Desktop,Yes,1,2,99.4
+user_0795,45,Female,UK,High School,5.7,Mobile,Yes,4,4,42.4
+user_0796,40,Other,UK,Bachelor,9.0,Desktop,No,4,1,79.3
+user_0797,31,Female,USA,Other,16.1,Desktop,No,5,3,66.6
+user_0798,41,Female,Australia,PhD,1.6,Mobile,No,4,8,96.9
+user_0799,19,Other,Canada,Other,15.9,Tablet,Yes,2,8,54.8
+user_0800,43,Male,India,PhD,5.6,Tablet,No,4,8,71.9
+user_0801,31,Other,Canada,Other,3.7,Tablet,No,5,6,68.9
+user_0802,24,Male,Canada,Master,3.2,Desktop,No,5,6,82.2
+user_0803,20,Other,Australia,Bachelor,1.5,Desktop,Yes,5,5,44.1
+user_0804,40,Other,Canada,PhD,10.9,Desktop,No,1,13,51.6
+user_0805,35,Female,Canada,High School,5.1,Mobile,No,2,9,52.9
+user_0806,55,Male,UK,Bachelor,19.8,Desktop,Yes,1,4,84.3
+user_0807,52,Female,Australia,High School,11.9,Mobile,Yes,3,10,51.3
+user_0808,32,Male,USA,Bachelor,3.6,Mobile,No,2,12,74.4
+user_0809,42,Other,India,Bachelor,14.1,Tablet,Yes,4,12,52.9
+user_0810,54,Other,Canada,Other,18.1,Tablet,No,5,12,91.7
+user_0811,45,Male,India,PhD,15.2,Tablet,Yes,3,7,96.5
+user_0812,27,Female,USA,PhD,2.5,Mobile,Yes,2,1,71.1
+user_0813,56,Female,India,Bachelor,18.0,Mobile,No,1,9,61.1
+user_0814,34,Female,USA,Master,16.1,Mobile,No,5,7,54.0
+user_0815,56,Female,UK,Master,4.0,Desktop,No,1,10,43.0
+user_0816,39,Other,Canada,High School,2.0,Mobile,Yes,2,12,56.1
+user_0817,43,Other,USA,High School,11.6,Tablet,No,2,9,79.3
+user_0818,42,Other,India,Other,4.0,Tablet,No,3,7,72.0
+user_0819,34,Other,Canada,Bachelor,16.9,Mobile,No,4,2,96.6
+user_0820,30,Other,UK,High School,7.8,Mobile,No,1,6,63.8
+user_0821,37,Female,Canada,High School,18.3,Tablet,No,3,10,81.6
+user_0822,42,Female,USA,Bachelor,11.7,Mobile,Yes,5,12,69.4
+user_0823,21,Female,UK,Other,4.5,Tablet,No,4,11,70.8
+user_0824,27,Female,India,High School,3.7,Desktop,No,3,4,56.1
+user_0825,20,Other,UK,Other,12.0,Tablet,Yes,1,3,67.3
+user_0826,58,Other,UK,PhD,15.5,Desktop,No,2,2,68.2
+user_0827,35,Other,Australia,Other,15.8,Mobile,No,5,6,82.4
+user_0828,53,Male,UK,Master,6.2,Mobile,No,1,8,96.4
+user_0829,39,Female,UK,Master,4.9,Desktop,No,4,6,59.8
+user_0830,51,Female,Canada,Other,1.3,Mobile,No,4,9,42.5
+user_0831,25,Other,India,Master,13.9,Desktop,Yes,2,14,69.8
+user_0832,57,Female,Canada,PhD,2.5,Mobile,Yes,2,5,72.7
+user_0833,36,Female,Canada,Bachelor,9.0,Tablet,Yes,5,2,50.1
+user_0834,59,Other,USA,Master,12.4,Mobile,No,5,8,85.6
+user_0835,58,Male,Canada,Master,18.8,Tablet,Yes,2,9,99.1
+user_0836,54,Male,Australia,Other,6.9,Tablet,No,2,14,96.7
+user_0837,23,Male,Australia,PhD,5.7,Desktop,No,4,10,51.8
+user_0838,43,Other,USA,Bachelor,13.4,Mobile,No,2,4,92.5
+user_0839,51,Female,India,Other,12.8,Desktop,Yes,3,6,82.3
+user_0840,23,Other,India,Other,7.3,Mobile,Yes,1,11,67.2
+user_0841,54,Other,Canada,PhD,18.6,Tablet,Yes,2,10,72.4
+user_0842,50,Female,Canada,Bachelor,17.1,Tablet,No,5,8,91.0
+user_0843,39,Male,Canada,PhD,5.3,Mobile,Yes,3,9,68.8
+user_0844,38,Male,India,Bachelor,5.5,Mobile,No,5,12,62.4
+user_0845,23,Other,UK,PhD,10.7,Desktop,Yes,3,5,69.6
+user_0846,23,Male,Australia,Other,15.7,Mobile,Yes,2,12,74.7
+user_0847,21,Other,UK,Other,1.8,Mobile,No,1,6,51.3
+user_0848,47,Other,UK,High School,14.2,Mobile,No,5,11,94.1
+user_0849,28,Female,India,Master,13.3,Desktop,Yes,3,4,80.5
+user_0850,47,Female,UK,PhD,5.4,Mobile,Yes,4,5,78.0
+user_0851,48,Female,USA,High School,13.9,Tablet,Yes,2,7,46.0
+user_0852,41,Other,Canada,Master,18.9,Desktop,No,1,9,76.3
+user_0853,26,Female,USA,PhD,1.9,Desktop,No,2,10,47.3
+user_0854,20,Male,Australia,Bachelor,7.1,Tablet,Yes,4,11,44.7
+user_0855,48,Male,Canada,Master,9.3,Tablet,Yes,1,13,71.6
+user_0856,57,Other,UK,Other,18.1,Tablet,No,4,6,64.2
+user_0857,54,Other,Australia,High School,19.3,Mobile,Yes,2,14,75.3
+user_0858,53,Female,Canada,Master,9.4,Tablet,No,3,6,45.4
+user_0859,41,Other,UK,Master,15.3,Mobile,No,2,8,65.9
+user_0860,48,Other,USA,Other,11.1,Desktop,No,2,11,50.5
+user_0861,23,Male,Canada,PhD,11.2,Desktop,No,2,4,99.2
+user_0862,19,Male,UK,Bachelor,6.3,Tablet,No,5,3,73.7
+user_0863,37,Female,USA,Other,5.1,Mobile,No,4,14,81.2
+user_0864,45,Other,Australia,Bachelor,6.5,Tablet,Yes,4,7,59.5
+user_0865,28,Other,Australia,PhD,11.6,Tablet,No,4,5,45.7
+user_0866,21,Male,Australia,Master,1.6,Mobile,No,5,2,98.6
+user_0867,32,Other,Australia,Bachelor,18.2,Tablet,Yes,3,2,57.2
+user_0868,23,Male,India,High School,4.0,Desktop,No,2,11,65.4
+user_0869,47,Female,Canada,High School,5.2,Tablet,Yes,3,6,79.0
+user_0870,55,Male,Canada,Other,10.8,Mobile,No,5,8,41.5
+user_0871,19,Other,India,PhD,14.5,Mobile,Yes,4,1,88.6
+user_0872,32,Female,UK,Other,2.8,Desktop,Yes,2,11,72.2
+user_0873,28,Male,UK,Other,7.0,Mobile,No,1,6,56.7
+user_0874,25,Male,Australia,Other,19.4,Mobile,No,1,12,43.7
+user_0875,43,Female,USA,High School,6.0,Desktop,No,3,2,49.7
+user_0876,22,Female,UK,High School,6.9,Tablet,No,4,2,93.7
+user_0877,23,Male,USA,Other,16.9,Desktop,Yes,1,7,81.2
+user_0878,43,Other,Canada,High School,2.0,Tablet,Yes,3,10,55.0
+user_0879,21,Male,USA,PhD,9.8,Desktop,Yes,5,1,43.9
+user_0880,36,Female,Canada,Other,8.2,Tablet,No,3,6,81.4
+user_0881,37,Male,India,High School,7.0,Desktop,Yes,3,14,74.3
+user_0882,50,Female,India,Bachelor,6.4,Tablet,No,3,7,64.3
+user_0883,37,Female,Australia,Other,2.7,Desktop,No,2,14,61.8
+user_0884,29,Other,UK,Other,7.0,Tablet,Yes,3,8,53.0
+user_0885,18,Female,Australia,PhD,1.8,Desktop,No,3,7,80.2
+user_0886,43,Female,Canada,Master,15.8,Mobile,Yes,2,6,98.2
+user_0887,31,Other,Australia,Master,8.6,Tablet,No,2,9,50.5
+user_0888,55,Female,USA,PhD,9.4,Desktop,Yes,5,13,75.8
+user_0889,54,Other,Canada,PhD,18.0,Tablet,No,4,3,65.5
+user_0890,28,Other,India,PhD,13.5,Tablet,Yes,1,11,66.8
+user_0891,53,Female,UK,Master,1.2,Desktop,Yes,1,6,55.2
+user_0892,30,Female,Canada,PhD,18.9,Tablet,No,3,4,89.5
+user_0893,20,Male,Canada,High School,5.5,Desktop,No,5,2,69.1
+user_0894,50,Other,USA,Other,3.0,Mobile,Yes,3,1,72.6
+user_0895,23,Male,UK,Other,15.6,Tablet,No,1,12,58.3
+user_0896,27,Female,India,Bachelor,10.5,Mobile,No,2,12,50.9
+user_0897,22,Male,Canada,Bachelor,9.2,Tablet,No,4,14,45.2
+user_0898,40,Other,Canada,Other,5.7,Tablet,Yes,5,1,82.8
+user_0899,27,Male,USA,High School,11.4,Tablet,Yes,2,11,51.8
+user_0900,19,Other,Australia,Master,6.2,Desktop,No,4,10,81.4
+user_0901,30,Female,India,Master,18.1,Mobile,No,5,3,63.4
+user_0902,57,Female,UK,High School,5.1,Tablet,Yes,5,4,64.9
+user_0903,19,Other,Canada,Master,17.8,Desktop,No,1,2,68.2
+user_0904,37,Female,Canada,PhD,11.6,Tablet,Yes,2,13,62.1
+user_0905,18,Female,India,Other,16.7,Desktop,No,5,12,46.0
+user_0906,54,Female,Australia,Other,14.5,Tablet,No,5,11,58.6
+user_0907,26,Female,Canada,High School,14.2,Mobile,No,4,11,79.8
+user_0908,34,Other,India,Master,7.2,Mobile,Yes,1,14,79.9
+user_0909,26,Male,USA,Bachelor,5.4,Tablet,Yes,3,11,57.2
+user_0910,28,Male,Australia,Bachelor,5.0,Desktop,Yes,1,1,67.6
+user_0911,32,Female,UK,Master,17.3,Tablet,Yes,3,4,51.6
+user_0912,41,Male,Canada,Bachelor,16.6,Desktop,No,2,7,52.6
+user_0913,55,Male,India,High School,9.4,Tablet,No,2,10,41.4
+user_0914,52,Female,USA,High School,3.5,Desktop,Yes,5,11,93.8
+user_0915,47,Female,UK,Master,8.3,Mobile,No,2,6,52.6
+user_0916,48,Male,India,Bachelor,12.8,Tablet,No,5,6,53.7
+user_0917,22,Other,India,High School,9.6,Mobile,Yes,1,11,56.8
+user_0918,31,Female,UK,High School,15.8,Mobile,No,2,9,47.6
+user_0919,28,Other,USA,PhD,20.0,Tablet,No,1,14,78.4
+user_0920,26,Male,USA,PhD,4.6,Tablet,Yes,1,2,44.5
+user_0921,51,Female,Australia,High School,9.7,Desktop,No,2,4,48.1
+user_0922,29,Other,Canada,Master,9.2,Desktop,No,1,5,78.7
+user_0923,52,Female,UK,Other,6.8,Mobile,No,2,1,60.4
+user_0924,52,Male,UK,Other,4.8,Desktop,Yes,2,8,82.5
+user_0925,18,Other,UK,High School,2.2,Desktop,Yes,2,8,73.4
+user_0926,57,Male,USA,High School,17.9,Tablet,No,3,6,55.4
+user_0927,39,Male,Canada,High School,9.0,Desktop,No,1,12,79.0
+user_0928,46,Female,Australia,Master,10.4,Mobile,No,4,5,47.0
+user_0929,25,Other,India,PhD,18.4,Desktop,Yes,2,8,72.2
+user_0930,28,Male,India,High School,15.7,Mobile,Yes,1,3,66.2
+user_0931,58,Male,UK,High School,3.5,Tablet,Yes,5,3,56.1
+user_0932,54,Other,Canada,Bachelor,11.7,Mobile,No,2,2,76.2
+user_0933,31,Male,USA,Master,9.4,Desktop,No,2,5,92.3
+user_0934,47,Male,Canada,High School,16.1,Tablet,No,4,3,99.9
+user_0935,52,Other,Canada,Bachelor,14.8,Desktop,No,3,3,76.5
+user_0936,38,Other,USA,Other,14.1,Tablet,No,3,6,64.3
+user_0937,54,Other,UK,High School,7.5,Tablet,Yes,2,8,53.5
+user_0938,22,Other,Canada,High School,16.3,Desktop,No,1,2,55.4
+user_0939,36,Female,India,Bachelor,2.0,Desktop,No,5,4,68.8
+user_0940,31,Other,USA,Master,4.0,Tablet,No,5,11,62.0
+user_0941,43,Female,Australia,High School,7.4,Tablet,Yes,1,7,94.8
+user_0942,21,Female,UK,Other,2.5,Desktop,No,2,1,62.1
+user_0943,42,Female,USA,High School,5.5,Mobile,Yes,5,1,62.4
+user_0944,59,Male,Australia,Other,16.8,Desktop,Yes,3,12,63.0
+user_0945,42,Female,Australia,PhD,19.0,Tablet,Yes,1,13,90.2
+user_0946,35,Female,Canada,PhD,6.8,Desktop,Yes,4,10,79.0
+user_0947,57,Male,Canada,Other,6.0,Mobile,Yes,2,7,76.9
+user_0948,25,Male,Canada,Master,6.3,Desktop,No,1,14,60.0
+user_0949,56,Male,USA,High School,6.3,Tablet,No,5,7,89.1
+user_0950,57,Other,USA,High School,1.7,Desktop,Yes,2,1,42.3
+user_0951,31,Male,UK,PhD,18.6,Tablet,Yes,3,1,92.2
+user_0952,49,Male,Canada,Other,5.1,Tablet,Yes,2,4,70.8
+user_0953,55,Female,Australia,High School,9.0,Desktop,No,2,5,63.9
+user_0954,50,Male,India,High School,1.2,Tablet,No,3,5,69.8
+user_0955,40,Other,UK,Master,17.3,Tablet,Yes,3,4,80.0
+user_0956,32,Male,USA,Bachelor,14.9,Mobile,No,2,8,40.8
+user_0957,50,Other,UK,PhD,19.0,Mobile,No,3,7,92.3
+user_0958,42,Male,UK,PhD,15.9,Mobile,Yes,1,9,66.8
+user_0959,34,Male,UK,Bachelor,7.0,Mobile,Yes,3,7,60.6
+user_0960,50,Male,UK,High School,5.7,Tablet,No,3,10,48.3
+user_0961,19,Male,India,Master,14.3,Desktop,No,2,1,66.4
+user_0962,31,Other,Canada,Master,7.9,Tablet,No,1,13,69.8
+user_0963,57,Other,Australia,PhD,11.8,Tablet,Yes,4,14,64.2
+user_0964,57,Female,UK,Master,1.1,Tablet,Yes,4,7,80.7
+user_0965,56,Other,UK,Bachelor,2.2,Desktop,Yes,5,1,65.3
+user_0966,23,Male,UK,High School,11.2,Mobile,No,3,7,97.7
+user_0967,23,Female,Canada,Bachelor,11.8,Tablet,No,3,10,76.0
+user_0968,20,Female,USA,Other,15.3,Tablet,Yes,1,8,88.4
+user_0969,24,Female,USA,PhD,3.5,Mobile,No,4,11,46.6
+user_0970,25,Male,India,Master,10.8,Tablet,Yes,5,9,63.8
+user_0971,59,Other,USA,Other,4.7,Desktop,No,1,12,60.2
+user_0972,32,Male,UK,Master,2.8,Tablet,Yes,3,3,74.2
+user_0973,46,Female,UK,High School,8.8,Tablet,No,4,4,91.7
+user_0974,50,Male,UK,High School,4.1,Mobile,No,5,4,44.7
+user_0975,47,Male,India,High School,5.2,Tablet,Yes,2,12,44.4
+user_0976,56,Other,UK,Master,7.0,Tablet,Yes,4,9,91.0
+user_0977,44,Other,USA,Other,5.9,Desktop,Yes,5,13,52.8
+user_0978,53,Female,Canada,High School,2.7,Mobile,Yes,1,7,80.1
+user_0979,46,Male,Canada,Other,2.7,Mobile,Yes,2,3,72.6
+user_0980,55,Male,Australia,Master,4.7,Desktop,No,5,10,90.0
+user_0981,50,Other,USA,Other,2.0,Tablet,Yes,5,5,47.5
+user_0982,54,Male,UK,Master,12.9,Mobile,Yes,3,7,47.8
+user_0983,44,Male,Canada,Master,6.5,Mobile,Yes,4,8,73.4
+user_0984,50,Male,USA,PhD,6.3,Tablet,Yes,3,1,96.8
+user_0985,21,Other,Canada,Master,7.3,Tablet,Yes,2,12,64.9
+user_0986,39,Female,UK,Master,13.6,Mobile,No,5,2,59.6
+user_0987,19,Female,Canada,Bachelor,17.5,Tablet,Yes,3,7,76.4
+user_0988,27,Male,Australia,High School,15.4,Mobile,Yes,4,11,95.8
+user_0989,22,Female,Australia,PhD,14.8,Tablet,Yes,2,13,90.2
+user_0990,27,Other,Canada,PhD,10.2,Tablet,No,1,14,99.7
+user_0991,50,Other,USA,PhD,14.2,Desktop,No,3,13,41.4
+user_0992,55,Female,USA,Bachelor,11.5,Tablet,Yes,2,2,46.8
+user_0993,30,Female,USA,Master,5.1,Desktop,Yes,1,7,76.6
+user_0994,48,Male,Canada,High School,5.0,Tablet,No,3,9,89.2
+user_0995,53,Female,USA,Other,6.6,Mobile,No,2,11,57.1
+user_0996,41,Male,UK,Master,18.3,Mobile,No,2,2,54.4
+user_0997,32,Male,Australia,Bachelor,11.4,Tablet,Yes,3,7,87.2
+user_0998,46,Other,UK,Master,14.9,Tablet,Yes,2,4,43.4
+user_0999,25,Other,USA,Master,7.6,Mobile,No,5,11,62.2
+user_1000,22,Other,UK,Bachelor,8.7,Tablet,Yes,3,13,70.3

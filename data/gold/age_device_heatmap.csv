@@ -1,0 +1,13 @@
+﻿age_band,preferred_device,total_users,avg_satisfaction
+18-25,Desktop,89,2.89
+18-25,Mobile,76,3.17
+18-25,Tablet,67,3.03
+26-35,Desktop,64,2.89
+26-35,Mobile,92,3.24
+26-35,Tablet,96,3.02
+36-45,Desktop,92,2.71
+36-45,Mobile,89,3.08
+36-45,Tablet,108,2.95
+46+,Desktop,122,2.8
+46+,Mobile,121,2.88
+46+,Tablet,147,3.28
