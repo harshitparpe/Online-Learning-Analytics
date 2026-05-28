@@ -2,11 +2,14 @@
 
 > **End-to-end Medallion Architecture pipeline on Microsoft Azure** — transforming raw, inconsistent survey data into actionable business insights through automated ETL, cloud-native storage, and interactive Power BI dashboards.
 
+> 📚 **Academic Context:** Submitted for the **Data Engineering & Analysis** subject — 6th Semester, B.Tech Information Technology
+
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Azure_Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Parquet](https://img.shields.io/badge/Parquet-50ABF1?style=for-the-badge&logo=apache&logoColor=white)
+![Synapse](https://img.shields.io/badge/Azure_Synapse-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 
 ---
 
@@ -19,6 +22,7 @@
 | 📈 Data Quality Gain | ~95% |
 | 🗄️ Storage Format | Parquet (partitioned) |
 | ☁️ Cloud Platform | Microsoft Azure |
+| 🎓 Subject | Data Engineering & Analysis (Sem 6) |
 
 ---
 
@@ -34,25 +38,11 @@ Organizations generating data from online learning platforms often face **raw da
 
 ---
 
-## 🏗️ Architecture — Medallion Pattern
+## 🏗️ Pipeline Architecture — Medallion Pattern
 
-```
-SOURCE                 INGEST                    TRANSFORM
-────────────────────────────────────────────────────────────────
-online_learning     →  ADLS Gen2 (Raw)  →  Databricks Notebook 1
-dirty.csv              Azure Data Factory        (Bronze – ingest)
-[1225 rows]                                       ↓
-                                           Databricks Notebook 2
-                                           (Silver – clean data)
-                                                  ↓
-                                           Databricks Notebook 3
-                                           (Gold – aggregate)
+![Azure Medallion Architecture Pipeline](assets/architecture.png)
 
-QUERY                               SERVE
-────────────────────────────────────────────────────────────────
-Azure Synapse Analytics  →  Power BI Interactive Dashboards
-(Serverless SQL on Parquet)
-```
+The pipeline follows the **Medallion Architecture** — an industry-standard pattern that organizes data into three progressive quality layers, each building on the previous one.
 
 ### 🥉 Raw Zone
 Original dirty CSV stored **as-is** in ADLS Gen2. Unmodified audit baseline ingested via ADF copy activity.
@@ -95,29 +85,40 @@ Aggregated business metrics partitioned by dimension (`device`, `country`, `educ
 
 Three new columns created in the Silver layer:
 
-- `engagement_score` — composite metric from login frequency and study hours
-- `satisfaction_group` — Low / Medium / High bucketing of satisfaction rating
-- `completed_binary` — standardised boolean from inconsistent completion flags
+- `engagement_score` — composite metric derived from login frequency and hours spent weekly
+- `satisfaction_group` — Low / Medium / High bucketing of the satisfaction rating (1–5 scale)
+- `completed_binary` — standardised boolean from inconsistent completion flags (TRUE/FALSE/Yes/No)
 
 ---
 
-## 📊 Power BI Dashboards
+## 📊 Power BI Dashboards & Key Insights
 
-### Executive Performance Dashboard
-High-level summary KPIs and overall learner performance trends:
-- Total users, avg quiz score, avg satisfaction, completion rate
-- Completion rate by country (Australia leads)
-- Device distribution (equal split: Desktop / Mobile / Tablet)
-- Quiz score & completion rate by education level
-- Performance trends by study band (hours per week)
+### Dashboard 1 — Executive Performance Dashboard
 
-### Behavioural & Advanced Analytics Dashboard
-Deeper engagement and demographic analysis:
-- Login frequency vs quiz score scatter (positive correlation at high engagement)
-- Completion rate by satisfaction group (Low: 47.9%, Medium: 46.8%, High: 45.6%)
-- Gender distribution breakdown
-- Country-level satisfaction treemap (India avg 3.0, USA 3.11, UK 3.1)
-- Age band × device satisfaction matrix
+High-level KPIs and learner performance trends across the cleaned dataset.
+
+**📌 Key Insights:**
+
+- 🌍 **Australia and the UK lead in course completion rates** (~52–50%), while India and Canada trail slightly (~43%), suggesting regional differences in learner engagement or course accessibility.
+- 🎓 **Master's degree students show the highest average quiz scores**, followed closely by PhD and Bachelor students — indicating that higher academic background correlates with better quiz performance.
+- 📱 **Device usage is evenly distributed** at exactly 33.33% each across Desktop, Mobile, and Tablet — meaning the platform is accessed uniformly across all device types, making responsive design equally critical for all three.
+- ⏱️ **The 10–15 hrs/week study band peaks in quiz scores (~70)** while the 15+ hrs band has the highest completion rate — suggesting moderate study time optimises performance, while longer hours reflect more committed (completion-focused) learners.
+- 📉 **Completion rates are remarkably consistent across education levels** (all hovering near 46–49%), implying that education background alone does not determine whether a student finishes a course.
+
+---
+
+### Dashboard 2 — Behavioural & Advanced Analytics Dashboard
+
+Deeper engagement patterns, demographic analysis, and satisfaction-behaviour relationships.
+
+**📌 Key Insights:**
+
+- 📈 **Login frequency shows a non-linear relationship with quiz scores** — users logging in 15–20 times score significantly higher (130–140 range in sum), but very low-frequency users (1–5 logins) cluster around mediocre scores, confirming that **consistent engagement is a stronger predictor of performance than total study hours alone**.
+- 😐 **Counterintuitively, "Low" satisfaction students have the highest completion rate (47.9%)**, followed by Medium (46.8%) and High (45.6%) — suggesting that students who complete courses aren't necessarily the most satisfied, possibly due to external obligation rather than intrinsic motivation.
+- 👥 **Gender distribution is nearly equal** across Female, Male, and Other categories (~33% each), validating the dataset's demographic balance and making gender-based comparisons statistically fair.
+- 🌐 **Canada has the lowest average satisfaction (2.76)** while USA (3.11) and UK (3.1) score highest — pointing to potential regional differences in platform experience, course content relevance, or instructor quality.
+- 📱 **The 26–35 age band on Mobile devices has the highest satisfaction (3.24)**, while the 36–45 group on Desktop scores lowest (2.71) — suggesting younger, mobile-first users have a better platform experience, which has implications for UI/UX prioritisation.
+- 🔢 **Total satisfaction scores are consistent across genders** (Female ≈ Male ≈ Other at ~33% each within-gender), meaning satisfaction is not significantly gender-dependent in this dataset.
 
 ---
 
@@ -125,6 +126,9 @@ Deeper engagement and demographic analysis:
 
 ```
 online-learning-azure-pipeline/
+│
+├── assets/
+│   └── architecture.png             # Pipeline architecture diagram
 │
 ├── notebooks/
 │   ├── 01_bronze_ingest.ipynb       # Schema standardisation, CSV → Parquet
@@ -172,10 +176,10 @@ online-learning-azure-pipeline/
 1. **Upload raw data** to ADLS Gen2 `raw/` container
 2. **Import notebooks** into Azure Databricks
 3. **Configure ADF pipeline** to trigger notebooks sequentially:
-   - `01_bronze_ingest` → `02_silver_clean` → `03_gold_aggregate`
+   `01_bronze_ingest` → `02_silver_clean` → `03_gold_aggregate`
 4. **Run Synapse SQL queries** against the Gold Parquet files
-5. **Open Power BI** and connect to Synapse query outputs
-6. **Refresh dashboards** to see live insights
+5. **Open Power BI Desktop** and connect to Synapse query outputs
+6. **Refresh dashboards** to explore insights
 
 ---
 
@@ -200,6 +204,7 @@ online-learning-azure-pipeline/
 | **Harsh Gautam Jha** | 23/IT/061 |
 
 **Guide:** Prof. Khushbu Gupta
+**Subject:** Data Engineering & Analysis — 6th Semester, B.Tech Information Technology
 
 ---
 
