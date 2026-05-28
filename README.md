@@ -2,7 +2,7 @@
 
 > **End-to-end Medallion Architecture pipeline on Microsoft Azure** — transforming raw, inconsistent survey data into actionable business insights through automated ETL, cloud-native storage, and interactive Power BI dashboards.
 
-> 📚 **Academic Context:** Submitted for the **Data Engineering & Analysis** subject — 6th Semester, B.Tech Information Technology
+> 📚 Submitted for the **Data Engineering & Analysis** subject — 6th Semester, B.Tech Information Technology
 
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 ![Databricks](https://img.shields.io/badge/Azure_Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
@@ -122,46 +122,6 @@ Deeper engagement patterns, demographic analysis, and satisfaction-behaviour rel
 
 ---
 
-## 📁 Repository Structure
-
-```
-online-learning-azure-pipeline/
-│
-├── assets/
-│   └── architecture.png             # Pipeline architecture diagram
-│
-├── notebooks/
-│   ├── 01_bronze_ingest.ipynb       # Schema standardisation, CSV → Parquet
-│   ├── 02_silver_clean.ipynb        # All 7 cleaning operations + feature engineering
-│   └── 03_gold_aggregate.ipynb      # Business-level aggregations by dimension
-│
-├── data/
-│   ├── raw/
-│   │   └── online_learning_dirty.csv
-│   ├── silver/
-│   │   └── online_learning_user_behavior.csv
-│   └── gold/
-│       ├── by_country.csv
-│       ├── by_device.csv
-│       ├── by_education.csv
-│       ├── by_satisfaction.csv
-│       ├── by_study_band.csv
-│       ├── age_device_heatmap.csv
-│       ├── gender_completion.csv
-│       ├── login_vs_score.csv
-│       └── silver_overview.csv
-│
-├── powerbi/
-│   └── OnlineLearningAnalytics.pbix
-│
-├── report/
-│   └── ProjectFile.pdf
-│
-└── README.md
-```
-
----
-
 ## 🚀 How to Run
 
 ### Prerequisites
@@ -204,7 +164,7 @@ online-learning-azure-pipeline/
 | **Harsh Gautam Jha** | 23/IT/061 |
 
 **Guide:** Prof. Khushbu Gupta
-**Subject:** Data Engineering & Analysis — 6th Semester, B.Tech Information Technology
+**Subject:** Data Engineering & Analysis — 6th Semester, B.Tech Information Technology, Delhi Technological University
 
 ---
 
