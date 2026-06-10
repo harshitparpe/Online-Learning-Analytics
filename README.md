@@ -1,177 +1,186 @@
-# 🎓 Online Learning Analytics — Azure Cloud Data Pipeline
+# Online Learning Analytics Platform
 
-> **End-to-end Medallion Architecture pipeline on Microsoft Azure** — transforming raw, inconsistent survey data into actionable business insights through automated ETL, cloud-native storage, and interactive Power BI dashboards.
+> End-to-end cloud data engineering pipeline built on Microsoft Azure using Medallion Architecture. Processes raw online learning survey data through automated ETL, data quality remediation, cloud-native storage, and business intelligence dashboards.
 
-> 📚 Submitted for the **Data Engineering & Analysis** subject — 6th Semester, B.Tech Information Technology
+## Badges
 
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Databricks](https://img.shields.io/badge/Azure_Databricks-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Parquet](https://img.shields.io/badge/Parquet-50ABF1?style=for-the-badge&logo=apache&logoColor=white)
-![Synapse](https://img.shields.io/badge/Azure_Synapse-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0089D6)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C)
+![PowerBI](https://img.shields.io/badge/PowerBI-F2C811)
+![Synapse](https://img.shields.io/badge/Synapse-0078D4)
+![Parquet](https://img.shields.io/badge/Parquet-50ABF1)
 
----
+## Links
 
-## 📊 Project Highlights
+[Architecture](#architecture) ·
+[Pipeline Flow](#data-pipeline) ·
+[Dashboard Insights](#dashboard-insights)
 
-| Metric | Value |
-|--------|-------|
-| 📁 Raw Records Processed | 1,225+ |
-| 🧹 Data Quality Issues Fixed | 7 error types |
-| 📈 Data Quality Gain | ~95% |
-| 🗄️ Storage Format | Parquet (partitioned) |
-| ☁️ Cloud Platform | Microsoft Azure |
-| 🎓 Subject | Data Engineering & Analysis (Sem 6) |
+## Features
 
----
+* End-to-end Medallion Architecture implementation (Bronze → Silver → Gold)
+* Automated ETL pipeline using Azure Data Factory and Azure Databricks
+* Processing and validation of 1,225+ learner records
+* Resolution of 7 major categories of data quality issues
+* PySpark-based cleaning, transformation, and feature engineering
+* Partitioned Parquet storage for scalable analytics workloads
+* Azure Synapse serverless SQL analytics using OPENROWSET
+* Interactive Power BI dashboards for business intelligence
+* Cloud-native architecture using Azure services only
+* Production-style layered data architecture following industry best practices
 
-## 🧠 Problem Statement
+## Project Metrics
 
-Organizations generating data from online learning platforms often face **raw data that is incomplete, inconsistent, and unstructured**. Traditional processing methods lack the scalability and automation needed to clean and manage such data efficiently.
+| Metric                    | Value               |
+| ------------------------- | ------------------- |
+| Records Processed         | 1,225+              |
+| Data Quality Issues Fixed | 7 Categories        |
+| Data Quality Improvement  | ~95%                |
+| Storage Format            | Partitioned Parquet |
+| Cloud Platform            | Microsoft Azure     |
+| Dashboard Platform        | Power BI            |
 
-**Critical gaps this pipeline addresses:**
-- No unified platform for end-to-end data lifecycle management
-- Limited automation in data cleaning and preprocessing
-- Difficulty scaling analytics workflows with growing data volume
-- Lack of separation between raw, clean, and aggregated data layers
+## Tech Stack
 
----
+| Category          | Technologies                            |
+| ----------------- | --------------------------------------- |
+| Cloud Platform    | Microsoft Azure                         |
+| Storage           | Azure Data Lake Storage Gen2            |
+| ETL Orchestration | Azure Data Factory                      |
+| Data Processing   | Azure Databricks, Apache Spark, PySpark |
+| Analytics         | Azure Synapse Analytics                 |
+| Visualization     | Microsoft Power BI                      |
+| Data Format       | CSV, Parquet                            |
+| Query Engine      | Serverless SQL Pool                     |
 
-## 🏗️ Pipeline Architecture — Medallion Pattern
+## Architecture
 
 ![Azure Medallion Architecture Pipeline](assets/architecture.png)
 
-The pipeline follows the **Medallion Architecture** — an industry-standard pattern that organizes data into three progressive quality layers, each building on the previous one.
+The platform follows the Medallion Architecture pattern to progressively improve data quality and business value.
 
-### 🥉 Raw Zone
-Original dirty CSV stored **as-is** in ADLS Gen2. Unmodified audit baseline ingested via ADF copy activity.
+### Bronze Layer
 
-### 🥈 Silver Zone
-Cleaned, deduplicated **Parquet** files partitioned by `education_level`. All 7 data quality issues resolved via PySpark.
+* Raw CSV ingestion
+* Immutable source storage
+* Audit and recovery baseline
+* Azure Data Factory ingestion
 
-### 🥇 Gold Zone
-Aggregated business metrics partitioned by dimension (`device`, `country`, `education`, `satisfaction`). Directly consumed by Power BI.
+### Silver Layer
 
----
+* Data cleansing and standardization
+* Duplicate removal
+* Missing value handling
+* Feature engineering
+* Partitioned Parquet generation
 
-## 🛠️ Tech Stack
+### Gold Layer
 
-| Service | Role |
-|---------|------|
-| **Azure Data Lake Storage Gen2** | Hierarchical cloud storage — raw/silver/gold containers |
-| **Azure Data Factory** | Pipeline orchestration & sequential notebook triggering |
-| **Azure Databricks + Apache Spark** | Distributed PySpark ETL — cleaning, deduplication, feature engineering |
-| **Azure Synapse Analytics** | Serverless SQL querying via `OPENROWSET` on Parquet |
-| **Microsoft Power BI** | Interactive dashboards & KPI visualization |
+* Business-ready aggregations
+* Dimension-based partitions
+* Optimized analytics datasets
+* Power BI consumption layer
 
----
+## Data Pipeline
 
-## 🧹 Data Quality Issues Resolved
+### Data Quality Remediation
 
-| Issue Type | Scale | Fix Applied |
-|------------|-------|-------------|
-| Missing Values | ~219 nulls | Median imputation; `'Unknown'` for categorical |
-| Duplicate Rows | 17 rows | `dropDuplicates()` — one canonical record per user |
-| Inconsistent Labels | ~290 rows | PySpark `when()` standardisation to canonical forms |
-| Outliers | ~27 rows | Domain-bound filters (age 10–100, hours 0–168, quiz 0–100) |
-| Whitespace / Format | ~40 rows | `F.trim()` + `F.lower()` across all string columns |
-| Wrong Data Types | All cols | Explicit casting to `IntegerType` / `DoubleType` |
-| Label Case Mixing | ~50 rows | Lowercase comparison before matching (MALE/Male/male) |
+| Issue               | Resolution                        |
+| ------------------- | --------------------------------- |
+| Missing Values      | Median and categorical imputation |
+| Duplicates          | Record deduplication              |
+| Inconsistent Labels | Standardization rules             |
+| Outliers            | Domain-based filtering            |
+| Formatting Errors   | String normalization              |
+| Invalid Data Types  | Explicit schema enforcement       |
+| Case Variations     | Canonical transformations         |
 
----
+### Feature Engineering
 
-## 📐 Feature Engineering
+Three analytical features were generated:
 
-Three new columns created in the Silver layer:
+* **engagement_score** – learner engagement metric
+* **satisfaction_group** – Low / Medium / High segmentation
+* **completed_binary** – standardized completion indicator
 
-- `engagement_score` — composite metric derived from login frequency and hours spent weekly
-- `satisfaction_group` — Low / Medium / High bucketing of the satisfaction rating (1–5 scale)
-- `completed_binary` — standardised boolean from inconsistent completion flags (TRUE/FALSE/Yes/No)
+## Dashboard Insights
 
----
+### Executive Analytics
 
-## 📊 Power BI Dashboards & Key Insights
+* Australia and UK demonstrate the highest course completion rates
+* Master's degree learners achieve the strongest quiz performance
+* Device usage remains evenly distributed across Desktop, Mobile, and Tablet
+* Moderate weekly study hours correlate with peak academic performance
+* Completion rates remain consistent across education levels
 
-### Dashboard 1 — Executive Performance Dashboard
+### Behavioral Analytics
 
-High-level KPIs and learner performance trends across the cleaned dataset.
+* Login frequency is a stronger performance predictor than study hours
+* Satisfaction and completion rates show weak correlation
+* Gender distribution remains balanced across the dataset
+* Regional satisfaction differences are observable across countries
+* Mobile-first learners exhibit higher engagement metrics
 
-**📌 Key Insights:**
+## Project Structure
 
-- 🌍 **Australia and the UK lead in course completion rates** (~52–50%), while India and Canada trail slightly (~43%), suggesting regional differences in learner engagement or course accessibility.
-- 🎓 **Master's degree students show the highest average quiz scores**, followed closely by PhD and Bachelor students — indicating that higher academic background correlates with better quiz performance.
-- 📱 **Device usage is evenly distributed** at exactly 33.33% each across Desktop, Mobile, and Tablet — meaning the platform is accessed uniformly across all device types, making responsive design equally critical for all three.
-- ⏱️ **The 10–15 hrs/week study band peaks in quiz scores (~70)** while the 15+ hrs band has the highest completion rate — suggesting moderate study time optimises performance, while longer hours reflect more committed (completion-focused) learners.
-- 📉 **Completion rates are remarkably consistent across education levels** (all hovering near 46–49%), implying that education background alone does not determine whether a student finishes a course.
+```text
+online-learning-analytics/
+│
+├── data/
+│   ├── raw/
+│   ├── silver/
+│   └── gold/
+│
+├── notebooks/
+│   ├── 01_bronze_ingest
+│   ├── 02_silver_clean
+│   └── 03_gold_aggregate
+│
+├── synapse/
+│   └── sql_queries/
+│
+├── powerbi/
+│   └── dashboards/
+│
+├── assets/
+│   └── architecture.png
+│
+└── README.md
+```
 
----
+## Pipeline Workflow
 
-### Dashboard 2 — Behavioural & Advanced Analytics Dashboard
+1. Raw survey data uploaded to Azure Data Lake Storage Gen2
+2. Azure Data Factory orchestrates notebook execution
+3. Databricks performs cleaning and transformation
+4. Silver datasets stored as partitioned Parquet
+5. Gold business aggregates generated
+6. Synapse executes serverless SQL queries
+7. Power BI consumes curated analytics datasets
 
-Deeper engagement patterns, demographic analysis, and satisfaction-behaviour relationships.
+## Future Enhancements
 
-**📌 Key Insights:**
+* Real-time streaming analytics with Azure Event Hub
+* Automated scheduling through ADF triggers
+* ML-based course completion prediction
+* Predictive analytics dashboards
+* Anomaly detection for learner behavior
+* Multi-source ingestion pipelines
 
-- 📈 **Login frequency shows a non-linear relationship with quiz scores** — users logging in 15–20 times score significantly higher (130–140 range in sum), but very low-frequency users (1–5 logins) cluster around mediocre scores, confirming that **consistent engagement is a stronger predictor of performance than total study hours alone**.
-- 😐 **Counterintuitively, "Low" satisfaction students have the highest completion rate (47.9%)**, followed by Medium (46.8%) and High (45.6%) — suggesting that students who complete courses aren't necessarily the most satisfied, possibly due to external obligation rather than intrinsic motivation.
-- 👥 **Gender distribution is nearly equal** across Female, Male, and Other categories (~33% each), validating the dataset's demographic balance and making gender-based comparisons statistically fair.
-- 🌐 **Canada has the lowest average satisfaction (2.76)** while USA (3.11) and UK (3.1) score highest — pointing to potential regional differences in platform experience, course content relevance, or instructor quality.
-- 📱 **The 26–35 age band on Mobile devices has the highest satisfaction (3.24)**, while the 36–45 group on Desktop scores lowest (2.71) — suggesting younger, mobile-first users have a better platform experience, which has implications for UI/UX prioritisation.
-- 🔢 **Total satisfaction scores are consistent across genders** (Female ≈ Male ≈ Other at ~33% each within-gender), meaning satisfaction is not significantly gender-dependent in this dataset.
+## Academic Information
 
----
+| Field       | Value                          |
+| ----------- | ------------------------------ |
+| Subject     | Data Engineering & Analysis    |
+| Semester    | 6th Semester                   |
+| Degree      | B.Tech Information Technology  |
+| Institution | Delhi Technological University |
 
-## 🚀 How to Run
+## Team
 
-### Prerequisites
-- Azure subscription (free tier or student credits work)
-- Azure Databricks workspace
-- Azure Data Lake Storage Gen2 account
-- Azure Synapse Analytics workspace
-- Power BI Desktop
+* Harshit Parpe
+* Harsh Gautam Jha
 
-### Steps
+Guide: Prof. Khushbu Gupta
 
-1. **Upload raw data** to ADLS Gen2 `raw/` container
-2. **Import notebooks** into Azure Databricks
-3. **Configure ADF pipeline** to trigger notebooks sequentially:
-   `01_bronze_ingest` → `02_silver_clean` → `03_gold_aggregate`
-4. **Run Synapse SQL queries** against the Gold Parquet files
-5. **Open Power BI Desktop** and connect to Synapse query outputs
-6. **Refresh dashboards** to explore insights
-
----
-
-## 🔭 Future Roadmap
-
-| Phase | Enhancement | Azure Tool |
-|-------|-------------|------------|
-| Short-term | Real-Time Streaming | Azure Event Hub + Stream Analytics |
-| Short-term | Automated Orchestration | ADF Triggers (scheduled / event-driven) |
-| Mid-term | ML Completion Prediction | Azure Machine Learning (AutoML) |
-| Mid-term | Predictive Dashboards | Power BI + Azure ML integration |
-| Long-term | Anomaly Detection | Azure Anomaly Detector API |
-| Long-term | Multi-Source Scaling | ADLS Gen2 + ADF Connectors |
-
----
-
-## 👥 Team
-
-| Name | Roll No. |
-|------|----------|
-| **Harshit Parpe** | 23/IT/064 |
-| **Harsh Gautam Jha** | 23/IT/061 |
-
-**Guide:** Prof. Khushbu Gupta
-**Subject:** Data Engineering & Analysis — 6th Semester, B.Tech Information Technology, Delhi Technological University
-
----
-
-## 📄 License
-
-This project is submitted as an academic cloud data engineering project. Dataset used for educational purposes only.
-
----
-
-> *"Transforming raw, inconsistent data into actionable business insights through a scalable, end-to-end Medallion Architecture pipeline."*
